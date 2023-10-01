@@ -1,0 +1,54 @@
+footer{
+    background-color: #FFFEFB;
+    padding-top: 3.4375rem;
+    padding-left: 7.5rem;
+    .pagesFooter{
+        display: flex;
+        justify-content: center;
+    }
+    .solutions-footer{
+        list-style: none;
+        line-height: 1.875rem;
+        margin-right: 3.125rem;
+    }
+    .guides-footer{
+        list-style: none;
+        line-height: 1.875rem;
+        margin-right: 3.125rem;
+    }
+    .community-footer{
+        list-style: none;
+        line-height: 1.875rem;
+    }
+    a{
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.25rem;
+        color:#364037;
+        &:hover{
+            color: #6D8B74;
+            font-weight: 900;
+        }
+        .logo-footer{
+            width: 12.8125rem;
+        }
+    }
+    p{
+        text-decoration: none;
+        font-family: 'Merriweather', serif;
+        font-size: 1rem;
+        color:#364037
+    }
+    .social-media{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 7.5rem;
+        padding-bottom: 3.125rem;
+        img{
+            width: 2.5625rem;
+        }
+        .ig{
+            margin-right: 1.25rem;
+        }
+    }
+}

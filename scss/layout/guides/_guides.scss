@@ -1,0 +1,118 @@
+.sectionGuideOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFEFB;
+    text-align: center;
+    h1{
+        margin-top: 6.25rem;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        letter-spacing: .1875rem;
+        font-size: 3.75rem;
+        color: #4B594D;
+    }
+    span{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        letter-spacing: .1875rem;
+        font-size: 3.75rem;
+        color: #6D8B74;
+    }
+    p{    
+        width: 685px;
+        margin-top: 3.6875rem;
+        margin-bottom: 4.875rem;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        font-weight: 500;
+        font-size: 1.25rem;
+        color: #4B594D;
+        letter-spacing: .125rem;
+    }
+}
+
+.sectionGuideTwo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+    .card{
+        width: 22.5rem;
+        height: 337px;
+        background-color: #FCECD5;
+        border-radius: 3.125rem 3.125rem 0rem 0rem;
+        margin-bottom: 12.5rem;
+        img{
+            margin-left: 2.25rem;
+            width: 80%;
+            margin-top: 2.8125rem;
+            border-radius: 3.125rem 3.125rem 0rem 0rem;
+        }
+        .card-content{
+            height: 8.5rem;
+            width: 22.5rem;
+            background-color: #6D8B74;
+            border-radius: 0rem 0rem 3.125rem 3.125rem;
+            text-align: center;
+            box-shadow: 0rem .25rem .25rem 0rem rgba(0, 0, 0, 0.25);
+            p{
+                padding: .8125rem 3.375rem;
+                font-family: 'Merriweather', serif;
+                font-weight: 500;
+                font-size: .875rem;
+                color: #EFEAD8;
+            }
+            h2{
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+                font-size: 1.25rem;
+                color: #EFEAD8;
+                padding-top: .8125rem;
+                margin-bottom: .3125rem;
+            }
+        }
+    }
+}
+
+.sectionGuideThree{
+    display: flex;
+    justify-content: space-between;
+    background-color: #364037;
+    padding-left: 7.75rem;
+    h2{
+        font-family: 'Lato', sans-serif;
+        text-transform: capitalize;
+        text-align: left;
+        font-weight: 500;
+        letter-spacing: .1875rem;
+        font-size: 3.75rem;
+        color: #FFFEFB;
+        padding-top: 7.8125rem;
+    }
+    button{
+        margin-top: 3.125rem;
+        margin-bottom: 5.9375rem;
+        background-color: #EFEAD8;
+        padding: .9375rem 2.1875rem;
+        border: none;
+        border-radius: 3.75rem;
+        box-shadow: 0rem .25rem .25rem 0rem rgba(0, 0, 0, 0.25);
+        a{
+            text-decoration: none;
+            color: #6D8B74;
+            font-family: 'Lato', sans-serif;
+            font-size: 2rem;
+        }
+    }
+    img{
+        margin-top: 3.8125rem;
+        margin-right: 7.5rem;
+        width: 21.875rem;
+        border-radius: .9375rem;
+        box-shadow: 0rem .25rem .25rem 0rem #1f1f1f
+    }
+}

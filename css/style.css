@@ -1,0 +1,1680 @@
+/* Utilities */
+/* Base */
+/*estilos generales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* Layout */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #364037;
+  width: 100%; }
+  header .navbar-brand img {
+    position: absolute;
+    left: 3.125rem;
+    top: .75rem;
+    height: 1.875rem; }
+  header .navbar-nav .nav-item.active .nav-link {
+    color: #364037; }
+  header .navbar-toggler {
+    border: none; }
+    header .navbar-toggler:focus {
+      all: unset; }
+  header .navbar-toggler-icon {
+    background-image: var(--bs-navbar-toggler-icon-bg); }
+  header .navbar li a {
+    margin-left: .3125rem;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #FFFEFB; }
+    header .navbar li a:hover {
+      color: #6D8B74; }
+  header .dropdown-menu {
+    background-color: #6D8B74;
+    width: 6.25rem; }
+
+.sectionOne {
+  display: flex;
+  flex-direction: none;
+  justify-content: center;
+  align-items: none;
+  text-align: center;
+  background-color: #FFFEFB;
+  padding: 6.25rem; }
+  .sectionOne h1, .sectionOne .sectionGuideOne span, .sectionGuideOne .sectionOne span {
+    margin-bottom: 2.875rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #4B594D; }
+  .sectionOne span {
+    margin-bottom: 2.875rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #6D8B74; }
+  .sectionOne p {
+    width: 37.75rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #4B594D;
+    letter-spacing: .125rem; }
+  .sectionOne button {
+    background-color: #6D8B74;
+    padding: .75rem 2.1875rem;
+    margin: 4rem;
+    border: none;
+    border-radius: 3.75rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
+    .sectionOne button:hover {
+      color: #4B594D; }
+    .sectionOne button a {
+      text-decoration: none;
+      font-weight: 500;
+      letter-spacing: .125rem;
+      color: #FFFEFB;
+      font-family: 'Lato', sans-serif;
+      font-size: 2rem; }
+
+.sectionTwo {
+  background-color: #EFEAD8;
+  width: 100%;
+  padding-top: 5.3125rem; }
+  .sectionTwo .imagesSectionTwo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
+    .sectionTwo .imagesSectionTwo img {
+      width: 357px;
+      margin-top: 5.625rem; }
+  .sectionTwo .carousel-inner {
+    width: 31.25rem;
+    margin: 0 auto; }
+  .sectionTwo .carousel-control-next-icon {
+    background-color: #4B594D;
+    border-radius: 1.25rem; }
+  .sectionTwo .carousel-control-prev-icon {
+    background-color: #4B594D;
+    border-radius: 1.25rem; }
+  .sectionTwo .textSectionTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: center; }
+  .sectionTwo h2 {
+    margin-top: 4.375rem;
+    margin-bottom: 1.875rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #4B594D; }
+  .sectionTwo span {
+    margin-top: 4.375rem;
+    margin-bottom: 1.875rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #6D8B74; }
+  .sectionTwo p {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    letter-spacing: .0625rem;
+    color: #4B594D;
+    padding-left: 13.625rem;
+    padding-right: 13.625rem;
+    margin-bottom: 3.4375rem; }
+
+.sectionThree {
+  background-color: #FFFEFB;
+  padding-left: 7.75rem;
+  padding-right: 7.75rem; }
+  .sectionThree .solutionsHome {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: none;
+    justify-content: center;
+    align-items: none;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #4B594D; }
+    .sectionThree .solutionsHome .capture-learn {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: none;
+      width: 25rem; }
+    .sectionThree .solutionsHome .set-nurture {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: none;
+      width: 25rem; }
+  .sectionThree .descriptionSectionThree {
+    display: flex;
+    flex-direction: none;
+    justify-content: space-evenly;
+    align-items: none;
+    flex-wrap: wrap; }
+    .sectionThree .descriptionSectionThree p {
+      width: 27.125rem;
+      text-align: right;
+      font-family: 'Merriweather', serif;
+      font-weight: 500;
+      font-size: 1.125rem;
+      letter-spacing: .0625rem;
+      line-height: 3.125rem;
+      color: #4B594D;
+      padding-bottom: 5rem; }
+    .sectionThree .descriptionSectionThree .plantPhone {
+      margin-bottom: 6.5625rem;
+      width: 28.5625rem;
+      height: 28.5625rem;
+      border-radius: .9375rem;
+      box-shadow: 0rem .25rem .25rem 0rem #afafaf; }
+
+.sectionFour {
+  display: flex;
+  flex-direction: none;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EFEAD8;
+  text-align: center; }
+  .sectionFour .leafOne {
+    width: 22.5rem;
+    height: 12.5rem; }
+  .sectionFour .leafTwo {
+    width: 22.5rem;
+    height: 12.5rem; }
+  .sectionFour h2 {
+    margin-top: 3.125rem;
+    margin-bottom: 2.9375rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #4B594D; }
+  .sectionFour button {
+    background-color: #6D8B74;
+    padding: .9375rem 1.875rem;
+    border: none;
+    border-radius: 3.75rem;
+    box-shadow: 0rem .25rem .25rem 0rem #afafaf;
+    margin-bottom: 3.125rem; }
+    .sectionFour button:hover {
+      color: #4B594D; }
+    .sectionFour button a {
+      text-decoration: none;
+      color: #FFFEFB;
+      font-family: 'Lato', sans-serif;
+      font-size: 2rem; }
+
+@media (max-width: 768px) {
+  .sectionOne p {
+    width: 5rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .05rem; }
+  .sectionOne h1, .sectionOne .sectionGuideOne span, .sectionGuideOne .sectionOne span {
+    margin-bottom: 2.875rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #4B594D; }
+  .sectionOne span {
+    margin-bottom: 2.875rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #6D8B74; }
+  .sectionOne button {
+    background-color: #6D8B74;
+    padding: .75rem 2.1875rem;
+    margin: 4rem;
+    border: none;
+    border-radius: 3.75rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
+    .sectionOne button:hover {
+      color: #4B594D; }
+    .sectionOne button a {
+      text-decoration: none;
+      font-weight: 500;
+      letter-spacing: .125rem;
+      color: #FFFEFB;
+      font-family: 'Lato', sans-serif;
+      font-size: 2rem; }
+  .sectionOne img {
+    width: 7.9375rem;
+    margin-top: 2.5rem; }
+  .sectionTwo h2 {
+    margin-top: 4.375rem;
+    margin-bottom: 1.875rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: .075rem; }
+  .sectionTwo span {
+    margin-top: 4.375rem;
+    margin-bottom: 1.875rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: .075rem; }
+  .sectionTwo p {
+    font-weight: 300;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .05rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-bottom: 2.5rem; }
+  .sectionFour h2 {
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem;
+    letter-spacing: .1437rem; }
+  .sectionFour .leafOne {
+    width: 15.625rem;
+    height: 8.625rem; }
+  .sectionFour .leafTwo {
+    width: 15.625rem;
+    height: 8.625rem; } }
+
+@media (max-width: 425px) {
+  .sectionOne {
+    padding: 1.5625rem; }
+    .sectionOne h1, .sectionOne .sectionGuideOne span, .sectionGuideOne .sectionOne span {
+      margin-bottom: 1.875rem;
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2.5rem;
+      letter-spacing: .0875rem; }
+    .sectionOne span {
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2.5rem;
+      letter-spacing: .0875rem; }
+    .sectionOne p {
+      width: 80%;
+      margin-left: 2rem;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.5625rem;
+      letter-spacing: .05rem; }
+    .sectionOne button {
+      padding: .5rem 1.25rem;
+      margin: 1.875rem; }
+      .sectionOne button a {
+        font-weight: 500;
+        letter-spacing: .125rem;
+        font-size: 1rem; }
+  .sectionTwo {
+    background-color: #EFEAD8;
+    width: 100%;
+    padding-top: 0; }
+    .sectionTwo .imagesSectionTwo {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap; }
+    .sectionTwo .carousel-inner {
+      width: 18.75rem;
+      margin: 0 auto; }
+    .sectionTwo img {
+      width: 7.9375rem;
+      margin-top: 2.5rem; }
+    .sectionTwo h2 {
+      margin-top: 4.375rem;
+      margin-bottom: 1.875rem;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2.5rem;
+      letter-spacing: .075rem; }
+    .sectionTwo span {
+      font-weight: 500;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2.5rem;
+      letter-spacing: .075rem; }
+    .sectionTwo p {
+      font-weight: 300;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.5625rem;
+      letter-spacing: .05rem;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+      margin-bottom: 2.5rem; }
+  .sectionThree {
+    background-color: #FFFEFB;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; }
+    .sectionThree .solutionsHome {
+      display: flex;
+      flex-direction: column;
+      margin-top: 2.5rem;
+      margin-bottom: 2.5rem;
+      font-weight: 500;
+      font-size: 1.25rem;
+      padding-left: 0; }
+    .sectionThree .descriptionSectionThree {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+      .sectionThree .descriptionSectionThree p {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        font-weight: 500;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5625rem;
+        letter-spacing: .05rem; }
+      .sectionThree .descriptionSectionThree .plantPhone {
+        margin-bottom: 2.5rem;
+        width: 13.625rem;
+        height: 13.625rem; }
+  .sectionFour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: .625rem; }
+    .sectionFour h2 {
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2.5rem;
+      letter-spacing: .0875rem; } }
+
+.sectionSolOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #EFEAD8;
+  text-align: center; }
+  .sectionSolOne h1, .sectionSolOne .sectionGuideOne span, .sectionGuideOne .sectionSolOne span {
+    padding-top: 6.25rem;
+    margin-bottom: 1.4375rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #4B594D; }
+  .sectionSolOne span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #6D8B74; }
+  .sectionSolOne p {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #4B594D;
+    letter-spacing: .125rem; }
+  .sectionSolOne button {
+    background-color: #6D8B74;
+    padding: .75rem 2.1875rem;
+    margin: 4rem;
+    border: none;
+    border-radius: 3.75rem;
+    box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25); }
+    .sectionSolOne button:hover {
+      color: #4B594D; }
+    .sectionSolOne button a {
+      text-decoration: none;
+      font-weight: 500;
+      letter-spacing: .125rem;
+      color: #FFFEFB;
+      font-family: 'Lato', sans-serif;
+      font-size: 2rem; }
+
+.sectionSolTwo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #FFFEFB; }
+  .sectionSolTwo h2 {
+    text-align: left;
+    padding-top: 6.5625rem;
+    padding-left: 7.8125rem;
+    color: #4B594D;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .1875rem; }
+  .sectionSolTwo p {
+    width: 32.75rem;
+    padding-top: 3.125rem;
+    color: #4B594D;
+    font-family: 'Merriweather', serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    letter-spacing: .0625rem;
+    text-indent: 0; }
+  .sectionSolTwo img {
+    height: 29.25rem;
+    padding-top: 6.5625rem;
+    margin-bottom: 6.8125rem; }
+
+.sectionSolThree {
+  height: 66.5rem;
+  background-color: #EFEAD8; }
+  .sectionSolThree .cardSolNumber {
+    width: 13.1875rem;
+    height: 13.1875rem;
+    position: absolute;
+    left: -100px;
+    background-color: #364037;
+    border-radius: 6.5938rem;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .3rem;
+    text-align: center;
+    text-indent: 0;
+    padding-top: 5.7813rem; }
+  .sectionSolThree .cardSolOne {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 25rem;
+    margin-right: 7.5rem;
+    margin-left: 14.375rem;
+    padding-bottom: 5rem;
+    padding-top: 6.8125rem; }
+  .sectionSolThree .cardSolTwo {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 18.1875rem;
+    margin-right: 7.5rem;
+    margin-left: 14.375rem;
+    padding-bottom: 5rem; }
+  .sectionSolThree .cardSolThree {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 18.1875rem;
+    margin-right: 7.5rem;
+    margin-left: 14.375rem;
+    padding-bottom: 5rem; }
+  .sectionSolThree .cardSolContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 68.625rem;
+    height: 100%;
+    border-radius: .625rem;
+    background-color: #6D8B74; }
+    .sectionSolThree .cardSolContent h3 {
+      padding-bottom: 1.25rem;
+      color: #FFFEFB;
+      font-family: 'Lato', sans-serif;
+      padding-left: 9.375rem;
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.5625rem;
+      letter-spacing: .1rem; }
+    .sectionSolThree .cardSolContent p {
+      padding-left: 9.375rem;
+      padding-right: .9375rem;
+      color: #FFFEFB;
+      font-family: 'Lato', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.5625rem;
+      letter-spacing: .0625rem; }
+
+.sectionSolFour {
+  width: 100%;
+  height: 43.125rem;
+  background-image: url("../assets/img/ipad.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.sectionGuideOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFEFB;
+  text-align: center; }
+  .sectionGuideOne h1, .sectionGuideOne span {
+    margin-top: 6.25rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #4B594D; }
+  .sectionGuideOne span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #6D8B74; }
+  .sectionGuideOne p {
+    width: 685px;
+    margin-top: 3.6875rem;
+    margin-bottom: 4.875rem;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #4B594D;
+    letter-spacing: .125rem; }
+
+.sectionGuideTwo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem; }
+  .sectionGuideTwo .card {
+    width: 22.5rem;
+    height: 337px;
+    background-color: #FCECD5;
+    border-radius: 3.125rem 3.125rem 0rem 0rem;
+    margin-bottom: 12.5rem; }
+    .sectionGuideTwo .card img {
+      margin-left: 2.25rem;
+      width: 80%;
+      margin-top: 2.8125rem;
+      border-radius: 3.125rem 3.125rem 0rem 0rem; }
+    .sectionGuideTwo .card .card-content {
+      height: 8.5rem;
+      width: 22.5rem;
+      background-color: #6D8B74;
+      border-radius: 0rem 0rem 3.125rem 3.125rem;
+      text-align: center;
+      box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25); }
+      .sectionGuideTwo .card .card-content p {
+        padding: .8125rem 3.375rem;
+        font-family: 'Merriweather', serif;
+        font-weight: 500;
+        font-size: .875rem;
+        color: #EFEAD8; }
+      .sectionGuideTwo .card .card-content h2 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 1.25rem;
+        color: #EFEAD8;
+        padding-top: .8125rem;
+        margin-bottom: .3125rem; }
+
+.sectionGuideThree {
+  display: flex;
+  justify-content: space-between;
+  background-color: #364037;
+  padding-left: 7.75rem; }
+  .sectionGuideThree h2 {
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #FFFEFB;
+    padding-top: 7.8125rem; }
+  .sectionGuideThree button {
+    margin-top: 3.125rem;
+    margin-bottom: 5.9375rem;
+    background-color: #EFEAD8;
+    padding: .9375rem 2.1875rem;
+    border: none;
+    border-radius: 3.75rem;
+    box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25); }
+    .sectionGuideThree button a {
+      text-decoration: none;
+      color: #6D8B74;
+      font-family: 'Lato', sans-serif;
+      font-size: 2rem; }
+  .sectionGuideThree img {
+    margin-top: 3.8125rem;
+    margin-right: 7.5rem;
+    width: 21.875rem;
+    border-radius: .9375rem;
+    box-shadow: 0rem .25rem .25rem 0rem #1f1f1f; }
+
+.sectionGuideOne h1, .sectionGuideOne span {
+  width: 37.5rem;
+  margin-top: 6.25rem;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 3.75rem;
+  letter-spacing: .1437rem; }
+
+.sectionGuideOne p {
+  width: 600px;
+  margin-top: 3.6875rem;
+  margin-bottom: 4.875rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.875rem;
+  letter-spacing: .0625rem; }
+
+.sectionGuideTwo .card {
+  width: 16.125rem;
+  height: 15.625rem;
+  border-radius: 2.5rem 2.5rem 0rem 0rem;
+  margin-bottom: 9.375rem; }
+  .sectionGuideTwo .card img {
+    margin-left: 1.5625rem;
+    width: 80%;
+    margin-top: 1.875rem; }
+  .sectionGuideTwo .card .card-content {
+    height: 6.0625rem;
+    width: 16.125rem; }
+    .sectionGuideTwo .card .card-content p {
+      padding: 0rem .625rem;
+      font-size: .625rem;
+      font-weight: 700;
+      line-height: 1rem;
+      letter-spacing: .0313rem; }
+    .sectionGuideTwo .card .card-content h2 {
+      font-size: .875rem;
+      font-weight: 700;
+      line-height: 1.25rem;
+      letter-spacing: .0437rem;
+      padding-top: .625rem; }
+
+.sectionGuideThree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0rem; }
+  .sectionGuideThree h2 {
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    padding-top: 5rem; }
+  .sectionGuideThree button {
+    margin-top: 3.125rem;
+    margin-bottom: 1.875rem;
+    margin-left: 11.25rem;
+    padding: .9375rem 2.1875rem;
+    border-radius: 3.75rem; }
+    .sectionGuideThree button a {
+      font-size: 2rem; }
+  .sectionGuideThree img {
+    display: flex;
+    align-items: center;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 5rem;
+    width: 21.875rem;
+    border-radius: .9375rem; }
+
+.sectionAboutOne {
+  height: 39.375rem;
+  background-image: url("../assets/img/backgoundaboutus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .sectionAboutOne h1, .sectionAboutOne .sectionGuideOne span, .sectionGuideOne .sectionAboutOne span {
+    padding-top: 6.25rem;
+    padding-right: 7.5rem;
+    margin-bottom: 1.4375rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    line-height: 3.125rem;
+    font-size: 3.75rem;
+    color: #4B594D;
+    text-align: right;
+    text-indent: 0; }
+  .sectionAboutOne span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    font-size: 3.75rem;
+    color: #6D8B74; }
+
+.sectionAboutTwo {
+  display: grid;
+  grid-template-columns: repeat(2 50%);
+  grid-template-rows: repeat(2 50%);
+  grid-template-areas: "aboutPlantLife aboutPlantLifeImage" "aboutImages aboutUs";
+  padding-top: 9.375rem;
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+  background-color: #364037; }
+  .sectionAboutTwo .aboutPlantLife {
+    margin-bottom: 7.5rem; }
+    .sectionAboutTwo .aboutPlantLife h2 {
+      color: #EFEAD8;
+      font-family: 'Lato', sans-serif;
+      font-size: 3.75rem;
+      font-weight: 700;
+      line-height: 2.1875rem;
+      letter-spacing: .1875rem; }
+    .sectionAboutTwo .aboutPlantLife p {
+      padding-top: 3.75rem;
+      width: 28.75rem;
+      color: #EFEAD8;
+      font-family: 'Merriweather', serif;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2.1875rem;
+      letter-spacing: .0625rem;
+      text-indent: 0; }
+  .sectionAboutTwo .aboutPlantLifeImage img {
+    margin-bottom: 3.125rem;
+    height: 25.125rem; }
+  .sectionAboutTwo .aboutUs h2 {
+    text-align: center;
+    color: #EFEAD8;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    letter-spacing: .1875rem;
+    text-indent: 0; }
+  .sectionAboutTwo .aboutUs p {
+    text-align: right;
+    padding-top: 3.75rem;
+    width: 37.8125rem;
+    color: #EFEAD8;
+    font-family: 'Merriweather', serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.1875rem;
+    letter-spacing: .0625rem;
+    text-indent: 0;
+    margin-bottom: 7.5rem; }
+  .sectionAboutTwo .sectionAboutTwo img {
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
+  .sectionAboutTwo .lilyImage {
+    width: 26.875rem;
+    margin-bottom: 3.125rem; }
+  .sectionAboutTwo .plantAbout {
+    width: 26.875rem; }
+
+@media (max-width: 768px) {
+  .sectionAboutOne {
+    height: 31.25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+    .sectionAboutOne h1, .sectionAboutOne .sectionGuideOne span, .sectionGuideOne .sectionAboutOne span {
+      padding-right: 3.125rem;
+      font-size: 2.875rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 3.125rem;
+      letter-spacing: .1437rem; }
+    .sectionAboutOne span {
+      font-size: 2.875rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 3.125rem;
+      letter-spacing: .1437rem; }
+  .sectionAboutTwo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 21.875rem 30.875rem 61.25rem 23.5rem;
+    grid-template-areas: "aboutPlantLife"  "aboutPlantLifeImage" "aboutUs" "aboutImages";
+    padding-top: 5rem;
+    justify-content: center; }
+    .sectionAboutTwo .aboutPlantLife {
+      grid-area: aboutPlantLife; }
+      .sectionAboutTwo .aboutPlantLife h2 {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 2.1875rem;
+        letter-spacing: .15rem;
+        text-align: center; }
+      .sectionAboutTwo .aboutPlantLife p {
+        padding-top: 3.75rem;
+        width: 40.25rem;
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 2.1875rem;
+        letter-spacing: .0625rem; }
+    .sectionAboutTwo .aboutPlantLifeImage {
+      display: flex;
+      justify-content: center;
+      grid-area: aboutPlantLifeImage;
+      margin-bottom: 3.125rem;
+      margin-top: 1.25rem; }
+    .sectionAboutTwo .aboutUs {
+      grid-area: aboutUs;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .sectionAboutTwo .aboutUs h2 {
+        text-align: center;
+        font-size: 3.75rem;
+        font-weight: 700;
+        letter-spacing: .1875rem;
+        text-indent: 0; }
+      .sectionAboutTwo .aboutUs p {
+        text-align: center;
+        padding-top: 3.75rem;
+        width: 37.8125rem;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.1875rem;
+        letter-spacing: .0625rem;
+        text-indent: 0;
+        margin-bottom: 7.5rem; }
+    .sectionAboutTwo .aboutImages {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      grid-area: aboutImages;
+      justify-content: space-evenly;
+      margin-bottom: 5rem; }
+    .sectionAboutTwo .sectionAboutTwo img {
+      border-radius: 15px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
+    .sectionAboutTwo .lilyImage {
+      margin-bottom: 3.125rem;
+      width: 18.4375rem; }
+    .sectionAboutTwo .plantAbout {
+      width: 18.4375rem;
+      margin-bottom: 3.125rem; } }
+
+@media (max-width: 425px) {
+  .sectionAboutOne {
+    height: 17.4375rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px; }
+    .sectionAboutOne h1, .sectionAboutOne .sectionGuideOne span, .sectionGuideOne .sectionAboutOne span {
+      padding-right: 1.25rem;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.75rem;
+      letter-spacing: .075rem; }
+    .sectionAboutOne span {
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.75rem;
+      letter-spacing: .075rem; }
+  .sectionAboutTwo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "aboutPlantLife"  "aboutPlantLifeImage" "aboutUs" "aboutImages";
+    padding-top: 3.125rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    justify-content: center;
+    align-items: center; }
+    .sectionAboutTwo img {
+      border-radius: 15px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
+    .sectionAboutTwo .aboutPlantLife {
+      grid-area: aboutPlantLife;
+      margin-bottom: 2.25rem; }
+      .sectionAboutTwo .aboutPlantLife h2 {
+        font-family: Lato;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.1875rem;
+        letter-spacing: .075rem;
+        text-align: center; }
+      .sectionAboutTwo .aboutPlantLife p {
+        padding-top: .3125rem;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.5625rem;
+        letter-spacing: .05rem;
+        width: 16.875rem;
+        margin-bottom: 1.5625rem; }
+    .sectionAboutTwo .aboutPlantLifeImage {
+      display: flex;
+      justify-content: center;
+      grid-area: aboutPlantLifeImage;
+      margin-bottom: 1.25rem;
+      margin-top: 1.25rem; }
+      .sectionAboutTwo .aboutPlantLifeImage img {
+        max-width: 100%;
+        height: 11.25rem; }
+    .sectionAboutTwo .aboutUs {
+      grid-area: aboutUs; }
+      .sectionAboutTwo .aboutUs h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: .1875rem;
+        text-indent: 0; }
+      .sectionAboutTwo .aboutUs p {
+        width: 16.875rem;
+        text-align: center;
+        padding-top: 3.75rem;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.875rem;
+        letter-spacing: .05rem; }
+    .sectionAboutTwo .aboutImages {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      grid-area: aboutImages;
+      justify-content: space-evenly; }
+    .sectionAboutTwo .lilyImage {
+      margin-bottom: 3.125rem;
+      width: 11.625rem; }
+    .sectionAboutTwo .plantAbout {
+      width: 11.625rem;
+      margin-bottom: 3.125rem; } }
+
+.sectionCommOne {
+  background: #FFFEFB; }
+  .sectionCommOne .welcomComm {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 11.25rem;
+    padding-left: 13.5rem;
+    align-items: center;
+    margin-bottom: 2.5rem; }
+    .sectionCommOne .welcomComm h1, .sectionCommOne .welcomComm .sectionGuideOne span, .sectionGuideOne .sectionCommOne .welcomComm span {
+      margin-bottom: 2.875rem;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      letter-spacing: .1875rem;
+      font-size: 3.75rem;
+      color: #4B594D;
+      text-align: left; }
+    .sectionCommOne .welcomComm span {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      letter-spacing: .1875rem;
+      font-size: 3.75rem;
+      color: #6D8B74;
+      text-align: left; }
+    .sectionCommOne .welcomComm img {
+      height: 100%;
+      width: 32.0625rem; }
+  .sectionCommOne .searchComm .search-bar {
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+    .sectionCommOne .searchComm .search-bar form {
+      position: relative; }
+    .sectionCommOne .searchComm .search-bar img {
+      width: 1.25rem;
+      height: 1.25rem;
+      position: absolute;
+      left: 35px;
+      top: 1.5625rem; }
+    .sectionCommOne .searchComm .search-bar input {
+      padding-left: 1.5rem;
+      color: #666666;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 1.5rem;
+      border: 5px solid #6D8B74;
+      text-indent: 2rem;
+      width: 32rem;
+      height: 4.4375rem;
+      border-radius: 2.3rem; }
+      .sectionCommOne .searchComm .search-bar input:focus {
+        border: 5px solid #4B594D;
+        outline: none; }
+
+.sectionCommTwo {
+  display: grid;
+  grid-template-columns: repeat(3 1fr);
+  grid-template-rows: 21.25rem 21.25rem;
+  grid-template-areas: "blog-card1 blog-card2 blog-card3" "blog-card4 blog-card5 blog-card6";
+  column-gap: 4.375rem;
+  row-gap: 7.5rem;
+  justify-content: center;
+  margin-top: 8rem;
+  background: #FFFEFB;
+  padding-left: 7.5rem;
+  padding-right: 7.5rem; }
+  .sectionCommTwo .blog-card img {
+    width: 21.875rem; }
+  .sectionCommTwo .blog-card-content {
+    display: flex;
+    align-items: center;
+    color: #364037;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: .0625rem;
+    text-indent: 0;
+    margin-top: 1.5625rem; }
+    .sectionCommTwo .blog-card-content img {
+      padding-right: 1.25rem;
+      width: 4.5rem; }
+
+.sectionCommThree {
+  background: #EFEAD8;
+  margin-top: 6.8125rem; }
+  .sectionCommThree h2 {
+    padding-top: 7.25rem;
+    color: #364037;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .1rem; }
+  .sectionCommThree span {
+    color: #6D8B74;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .1rem; }
+  .sectionCommThree .webinar {
+    padding-bottom: 6.25rem; }
+    .sectionCommThree .webinar .webinar-card {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding-right: 3.75rem;
+      height: 8.75rem;
+      margin-left: 7.5rem;
+      margin-right: 7.5rem;
+      margin-top: 3.625rem;
+      background-color: #364037;
+      border-radius: .625rem;
+      box-shadow: 0rem .25rem .25rem 0rem #1f1f1f; }
+      .sectionCommThree .webinar .webinar-card img {
+        margin-left: 1.75rem;
+        width: 5.3125rem;
+        height: 5.3125rem;
+        border-radius: .5625rem; }
+      .sectionCommThree .webinar .webinar-card h3 {
+        color: #FFFEFB;
+        font-family: 'Lato', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.5625rem;
+        letter-spacing: .1rem;
+        display: inline; }
+      .sectionCommThree .webinar .webinar-card p {
+        color: #FFFEFB;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5625rem;
+        letter-spacing: .075rem;
+        padding: 5px; }
+
+.sectionCommFour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FFFEFB; }
+  .sectionCommFour h2 {
+    padding-top: 5.625rem;
+    color: #4B594D;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 6.25rem;
+    letter-spacing: .1875rem;
+    text-align: center;
+    padding-top: 5.625rem; }
+  .sectionCommFour span {
+    color: #6D8B74;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 6.25rem;
+    letter-spacing: .1875rem; }
+  .sectionCommFour input {
+    margin-top: 5.375rem;
+    border: .3125rem solid #6D8B74;
+    height: 4.4375rem;
+    border-radius: 2.875rem;
+    margin-bottom: 6.25rem; }
+  .sectionCommFour .email-input {
+    width: 39.5rem;
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5625rem;
+    letter-spacing: .075rem;
+    text-indent: 1.875rem;
+    box-shadow: 0rem .25rem .25rem 0rem #898989; }
+  .sectionCommFour:focus {
+    outline: none; }
+  .sectionCommFour form {
+    position: relative; }
+  .sectionCommFour .send-input {
+    position: absolute;
+    right: 5px;
+    width: 9.25rem;
+    border: .3125rem solid #6D8B74;
+    background-color: #6D8B74;
+    box-shadow: 0rem .25rem .25rem 0rem #898989;
+    color: #FFFEFB;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .075rem;
+    text-align: center; }
+
+@media (max-width: 768px) {
+  .sectionCommOne {
+    margin-top: 1.25rem; }
+    .sectionCommOne .welcomComm {
+      display: flex;
+      justify-content: space-between;
+      padding-right: 3.125rem;
+      padding-left: 3.125rem;
+      align-items: center;
+      margin-bottom: 2.5rem; }
+      .sectionCommOne .welcomComm h1, .sectionCommOne .welcomComm .sectionGuideOne span, .sectionGuideOne .sectionCommOne .welcomComm span {
+        margin-top: 3.4375rem;
+        font-size: 2.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 5rem;
+        letter-spacing: .1437rem; }
+      .sectionCommOne .welcomComm span {
+        font-size: 2.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 5rem;
+        letter-spacing: .1437rem; }
+      .sectionCommOne .welcomComm img {
+        height: 100%;
+        width: 20.875rem; }
+    .sectionCommOne .searchComm .search-bar input {
+      font-weight: 400;
+      font-size: 1.125rem;
+      padding-left: 20px;
+      font-size: 1.25rem;
+      border: 4px solid #6D8B74;
+      text-indent: 2rem;
+      width: 25.3125rem;
+      height: 3.125rem;
+      border-radius: 2.3rem; }
+    .sectionCommOne .searchComm .search-bar img {
+      width: .9375rem;
+      height: .9375rem;
+      position: absolute;
+      left: 30px;
+      top: 18px; } }
+
+.sectionCommTwo {
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  grid-template-rows: repeat(3, 22.0625rem);
+  grid-template-areas: "blog-card1 blog-card2" "blog-card3 blog-card4" "blog-card5 blog-card6";
+  column-gap: 4.0625rem;
+  row-gap: 0;
+  padding-left: 3.125rem;
+  padding-right: 3.125rem; }
+  .sectionCommTwo .blog-card img {
+    width: 18.125rem; }
+  .sectionCommTwo .blog-card-content {
+    display: flex;
+    justify-content: center; }
+    .sectionCommTwo .blog-card-content img {
+      width: 3.75rem; }
+    .sectionCommTwo .blog-card-content p {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.25rem;
+      letter-spacing: .0437rem; }
+
+.sectionCommThree {
+  margin-top: 3.125rem; }
+  .sectionCommThree .webinar {
+    padding-bottom: 3.125rem; }
+    .sectionCommThree .webinar .webinar-card {
+      display: flex;
+      flex-direction: row;
+      padding-right: 1.75rem;
+      align-items: center;
+      justify-content: space-between;
+      height: 6.25rem;
+      margin-left: 3.125rem;
+      margin-right: 3.125rem;
+      margin-bottom: 3.125rem; }
+      .sectionCommThree .webinar .webinar-card img {
+        margin-left: 1.75rem;
+        margin-right: .9375rem;
+        width: 4.4375rem;
+        height: 4.4375rem;
+        border-radius: .5625rem; }
+      .sectionCommThree .webinar .webinar-card h3 {
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 1.5625rem;
+        letter-spacing: .1rem;
+        display: inline; }
+      .sectionCommThree .webinar .webinar-card p {
+        font-size: .875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5625rem;
+        letter-spacing: .0437rem;
+        padding: 5px; }
+
+.sectionCommFour h2 {
+  margin-top: 3.4375rem;
+  font-size: 2.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5rem;
+  letter-spacing: .1437rem;
+  padding-top: 3.125rem; }
+
+.sectionCommFour span {
+  margin-top: 3.4375rem;
+  font-size: 2.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5rem;
+  letter-spacing: .1437rem; }
+
+.sectionCommFour input {
+  margin-top: 4.375rem;
+  border: 4px solid #6D8B74;
+  height: 3.375rem;
+  border-radius: 2.875rem;
+  margin-bottom: 3.125rem; }
+
+.sectionCommFour .email-input {
+  width: 30rem;
+  color: #666;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5625rem;
+  letter-spacing: .075rem;
+  text-indent: 1.875rem;
+  box-shadow: 0rem .25rem .25rem 0rem #898989; }
+
+.sectionCommFour .send-input {
+  position: absolute;
+  right: 0;
+  width: 7.5rem;
+  border: none;
+  background-color: #6D8B74;
+  box-shadow: 0rem .25rem .25rem 0rem #898989;
+  color: #FFFEFB;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5625rem;
+  letter-spacing: .075rem;
+  text-align: center; }
+
+@media (max-width: 425px) {
+  .sectionCommOne {
+    margin-top: 1.25rem; }
+    .sectionCommOne .welcomComm {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 1.625rem;
+      padding-left: 1.625rem;
+      margin-bottom: 1.875rem; }
+    .sectionCommOne h1, .sectionCommOne .sectionGuideOne span, .sectionGuideOne .sectionCommOne span {
+      margin-top: 1.875rem;
+      margin-bottom: .125rem;
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: .0875rem; }
+    .sectionCommOne span {
+      font-size: 1.75rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2rem;
+      letter-spacing: .0875rem; }
+    .sectionCommOne img {
+      height: 100%;
+      width: 16.875rem; }
+    .sectionCommOne .searchComm .search-bar input {
+      font-weight: 400;
+      font-size: 1rem;
+      padding-left: 20px;
+      font-size: .875rem;
+      border: 3px solid #6D8B74;
+      text-indent: 1rem;
+      width: 15.5rem;
+      height: 2.3125rem;
+      border-radius: 2rem; }
+    .sectionCommOne .searchComm .search-bar img {
+      width: .75rem;
+      height: .75rem;
+      position: absolute;
+      left: 20px;
+      top: 12px; } }
+
+.sectionCommTwo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 19.0625rem);
+  grid-template-areas: "blog-card1"  "blog-card2" "blog-card3"  "blog-card4" "blog-card5"  "blog-card6";
+  row-gap: 0;
+  margin-top: 3.125rem;
+  align-items: center; }
+  .sectionCommTwo .blog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .sectionCommTwo .blog-card img {
+      width: 16.875rem; }
+    .sectionCommTwo .blog-card .blog-card-content {
+      margin-top: .9375rem;
+      display: flex;
+      justify-content: center; }
+      .sectionCommTwo .blog-card .blog-card-content img {
+        width: 3.4375rem; }
+      .sectionCommTwo .blog-card .blog-card-content p {
+        font-size: .875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.25rem;
+        letter-spacing: .0437rem; }
+
+.sectionCommThree h2 {
+  padding-top: 4.375rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+  letter-spacing: .0875rem; }
+
+.sectionCommThree .webinar {
+  margin-top: .625rem;
+  padding-bottom: 2.5rem; }
+  .sectionCommThree .webinar .webinar-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    height: 17.0625rem;
+    margin-left: 1.5625rem;
+    margin-right: 1.5625rem;
+    margin-bottom: 2.5rem; }
+    .sectionCommThree .webinar .webinar-card img {
+      margin-top: .9375rem;
+      width: 3.125rem;
+      height: 3.125rem;
+      border-radius: .5625rem; }
+    .sectionCommThree .webinar .webinar-card h3 {
+      text-align: center;
+      font-size: 1.25rem;
+      font-weight: 500;
+      line-height: 1.5625rem;
+      letter-spacing: .1rem;
+      display: block; }
+    .sectionCommThree .webinar .webinar-card p {
+      text-align: center;
+      font-size: .875rem;
+      font-weight: 700;
+      line-height: 1.5625rem;
+      letter-spacing: .0437rem;
+      padding: 5px; }
+
+.sectionCommFour h2 {
+  margin-top: 1.25rem;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.375rem;
+  letter-spacing: .0875rem; }
+
+.sectionCommFour span {
+  margin-top: 1.25rem;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.375rem;
+  letter-spacing: .0875rem; }
+
+.sectionCommFour input {
+  margin-top: 2.8125rem;
+  border: 3px solid #6D8B74;
+  height: 2.3125rem;
+  border-radius: 1.875rem;
+  margin-bottom: 2.5rem; }
+
+.sectionCommFour .email-input {
+  width: 15.5rem;
+  margin-left: 0;
+  color: #666;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem;
+  letter-spacing: .05rem;
+  text-indent: 1.125rem;
+  box-shadow: 0rem .25rem .25rem 0rem #898989; }
+
+.sectionCommFour .send-input {
+  position: absolute;
+  right: 1px;
+  width: 4.75rem;
+  border: none;
+  background-color: #6D8B74;
+  box-shadow: 0rem .25rem .25rem 0rem #898989;
+  color: #FFFEFB;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5625rem;
+  letter-spacing: .05rem;
+  text-align: center; }
+
+.signup {
+  display: flex;
+  justify-content: center;
+  height: 8.75rem;
+  text-align: center; }
+  .signup img {
+    width: 17.8125rem;
+    padding-top: 2.5rem; }
+
+.form {
+  height: 46.875rem;
+  background-color: #364037;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  border-color: #364037; }
+  .form h1, .form .sectionGuideOne span, .sectionGuideOne .form span {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 3.75rem;
+    color: #FFFEFB;
+    margin-bottom: 3.75rem; }
+  .form p {
+    font-family: 'Merriweather', serif;
+    font-weight: lighter;
+    color: #FFFEFB; }
+  .form input {
+    margin-bottom: 1.25rem;
+    color: #666666;
+    border: none;
+    text-indent: .625rem;
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: .625rem; }
+  .form .submitSignUp {
+    margin-top: 1.25rem;
+    margin-bottom: .625rem; }
+  .form .footerSignUp {
+    background-color: #364037; }
+
+.footersignUp {
+  height: 6.25rem;
+  background-color: #364037; }
+
+footer {
+  background-color: #FFFEFB;
+  padding-top: 3.4375rem;
+  padding-left: 7.5rem; }
+  footer .pagesFooter {
+    display: flex;
+    justify-content: center; }
+  footer .solutions-footer {
+    list-style: none;
+    line-height: 1.875rem;
+    margin-right: 3.125rem; }
+  footer .guides-footer {
+    list-style: none;
+    line-height: 1.875rem;
+    margin-right: 3.125rem; }
+  footer .community-footer {
+    list-style: none;
+    line-height: 1.875rem; }
+  footer a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    color: #364037; }
+    footer a:hover {
+      color: #6D8B74;
+      font-weight: 900; }
+    footer a .logo-footer {
+      width: 12.8125rem; }
+  footer p {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    color: #364037; }
+  footer .social-media {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7.5rem;
+    padding-bottom: 3.125rem; }
+    footer .social-media img {
+      width: 2.5625rem; }
+    footer .social-media .ig {
+      margin-right: 1.25rem; }
+
+@media (max-width: 768px) {
+  footer {
+    padding-top: 6.25rem;
+    padding-left: 1.5625rem; }
+    footer .solutions-footer {
+      line-height: 1.875rem;
+      margin-right: 1.25rem; }
+    footer .guides-footer {
+      line-height: 1.875rem;
+      margin-right: .625rem; }
+    footer .community-footer {
+      line-height: 1.875rem; }
+    footer a {
+      text-decoration: none;
+      font-size: 1.25rem; }
+      footer a .logo-footer {
+        width: 7.5rem; }
+    footer p {
+      text-decoration: none;
+      font-size: 1rem;
+      color: #364037; }
+    footer .social-media {
+      margin-right: 3.125rem;
+      padding-bottom: 3.125rem; }
+      footer .social-media img {
+        width: 2rem; }
+      footer .social-media .ig {
+        margin-right: .9375rem; } }
+
+@media (max-width: 425px) {
+  footer {
+    padding-top: 2.5rem;
+    padding-left: 1.5625rem; }
+    footer .solutions-footer {
+      list-style: none;
+      line-height: 1.5625rem;
+      flex-wrap: wrap;
+      margin-right: 1.25rem;
+      margin-bottom: 1.25rem;
+      padding-left: 0rem; }
+    footer .guides-footer {
+      list-style: none;
+      line-height: 1.5625rem;
+      flex-wrap: wrap;
+      margin-right: .625rem;
+      margin-bottom: 1.25rem;
+      padding-left: 0rem; }
+    footer .community-footer {
+      list-style: none;
+      line-height: 1.5625rem;
+      flex-wrap: wrap;
+      padding-left: 0rem; }
+    footer a {
+      text-decoration: none;
+      font-size: 1rem; }
+      footer a .logo-footer {
+        width: 6.25rem;
+        margin-bottom: 1.25rem; }
+    footer p {
+      text-decoration: none;
+      font-size: .875rem;
+      color: #364037; }
+    footer .social-media {
+      margin-right: 1.5625rem;
+      padding-bottom: 3.125rem; }
+      footer .social-media img {
+        width: 1.5625rem; }
+      footer .social-media .ig {
+        margin-right: .9375rem; } }

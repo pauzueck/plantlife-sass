@@ -1,0 +1,197 @@
+@media(max-width: 425px){
+    .sectionCommOne{
+        margin-top: 1.25rem;
+        .welcomComm{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-right: 1.625rem;
+            padding-left: 1.625rem;
+            margin-bottom: 1.875rem;
+        }
+        h1{
+            margin-top: 1.875rem;
+            margin-bottom: .125rem;
+            font-size: 1.75rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 32px; 
+            letter-spacing: .0875rem;
+        }
+        span{
+            font-size: 1.75rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 2rem; 
+            letter-spacing: .0875rem;
+        }
+        img{
+            height: 100%;
+            width: 16.875rem;
+        }
+        .searchComm{
+            .search-bar{
+                input{
+                    font-weight: 400;
+                    font-size: 1rem;
+                    padding-left: 20px;
+                    font-size: .875rem;
+                    border: 3px solid #6D8B74;
+                    text-indent: 1rem;
+                    width: 15.5rem;
+                    height: 2.3125rem;
+                    border-radius: 2rem;
+                }
+                img{
+                    width: .75rem;
+                    height: .75rem;
+                    position: absolute;
+                    left: 20px;
+                    top: 12px;
+                }
+            }
+        }
+    }
+}
+.sectionCommTwo{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 19.0625rem);
+    grid-template-areas:
+    "blog-card1" 
+    "blog-card2"
+    "blog-card3" 
+    "blog-card4"
+    "blog-card5" 
+    "blog-card6"
+    ;
+    row-gap: 0;
+    margin-top: 3.125rem;
+    align-items: center;
+    .blog-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 16.875rem;
+        }
+        .blog-card-content{
+            margin-top: .9375rem;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 3.4375rem;
+            }
+            p{
+                font-size: .875rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.25rem; 
+                letter-spacing: .0437rem;
+            }
+        }
+    }
+}
+.sectionCommThree{
+    h2{
+        padding-top: 4.375rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        font-size: 1.75rem;
+        font-weight: 700;
+        line-height: 1.875rem; 
+        letter-spacing: .0875rem;
+    }
+    .webinar{
+        margin-top: .625rem;
+        padding-bottom: 2.5rem;
+        .webinar-card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            padding-right: 1.25rem;
+            padding-left: 1.25rem;
+            height: 17.0625rem;
+            margin-left: 1.5625rem;
+            margin-right: 1.5625rem;
+            margin-bottom: 2.5rem;
+            img{
+                margin-top: .9375rem;
+                width: 3.125rem;
+                height: 3.125rem;
+                border-radius: .5625rem;
+            }
+            h3{
+                text-align: center;
+                font-size: 1.25rem;
+                font-weight: 500;
+                line-height: 1.5625rem;
+                letter-spacing: .1rem;
+                display: block;
+            }
+            p{
+                text-align: center;
+                font-size: .875rem;
+                font-weight: 700;
+                line-height: 1.5625rem;
+                letter-spacing: .0437rem;
+                padding: 5px;
+            }
+        }
+    }
+}
+.sectionCommFour{
+    h2{
+        margin-top: 1.25rem;
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.375rem;
+        letter-spacing: .0875rem;
+    }
+    span{
+        margin-top: 1.25rem;
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.375rem;
+        letter-spacing: .0875rem;
+    }
+    input{
+        margin-top: 2.8125rem;
+        border: 3px solid #6D8B74;
+        height: 2.3125rem;
+        border-radius: 1.875rem;
+        margin-bottom: 2.5rem;
+    }
+    .email-input{
+        width: 15.5rem;
+        margin-left: 0;
+        color: #666;
+        font-family: 'Lato', sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5625rem;
+        letter-spacing: .05rem;
+        text-indent: 1.125rem;
+        box-shadow: 0rem .25rem .25rem 0rem #898989;
+    }
+    .send-input{
+        position: absolute;
+        right: 1px;
+        width: 4.75rem;
+        border: none;
+        background-color: #6D8B74;
+        box-shadow: 0rem .25rem .25rem 0rem #898989;
+        color: #FFFEFB;
+        font-family: 'Lato', sans-serif;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5625rem;
+        letter-spacing: .05rem;
+        text-align: center;
+    }
+}

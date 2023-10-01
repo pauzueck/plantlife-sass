@@ -1,0 +1,171 @@
+.sectionSolOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #EFEAD8;
+    text-align: center;
+    h1{
+        padding-top: 6.25rem;
+        margin-bottom: 1.4375rem;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        letter-spacing: .1875rem;
+        font-size: 3.75rem;
+        color: #4B594D;
+    }
+    span{
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        letter-spacing: .1875rem;
+        font-size: 3.75rem;
+        color: #6D8B74;
+    }
+    p{
+        font-family: 'Merriweather', serif;
+        font-weight: 300;
+        font-size: 1.25rem;
+        color: #4B594D;
+        letter-spacing: .125rem;
+    }
+    button{
+        background-color: #6D8B74;
+        padding: .75rem 2.1875rem;
+        margin: 4rem;
+        border: none;
+        border-radius: 3.75rem;
+        box-shadow: 0rem .25rem .25rem 0rem rgba(0, 0, 0, 0.25);
+        &:hover{
+            color: #4B594D;
+        }
+        a{
+            text-decoration: none;
+            font-weight: 500;
+            letter-spacing: .125rem;
+            color: #FFFEFB;
+            font-family: 'Lato', sans-serif;
+            font-size: 2rem;
+        }
+    }
+
+
+}.sectionSolTwo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #FFFEFB;
+    h2{
+        text-align: left;
+        padding-top: 6.5625rem;
+        padding-left: 7.8125rem;
+        color: #4B594D;
+        font-family: 'Lato', sans-serif;
+        font-size: 3.75rem;
+        font-weight: 700;
+        line-height: 1.5625rem;
+        letter-spacing: .1875rem;
+    }
+    p{
+        width: 32.75rem;
+        padding-top: 3.125rem;
+        color: #4B594D;
+        font-family: 'Merriweather', serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.875rem;
+        letter-spacing: .0625rem;
+        text-indent: 0;
+    }
+    img{
+        height: 29.25rem;
+        padding-top: 6.5625rem;
+        margin-bottom: 6.8125rem;
+    }
+}
+
+.sectionSolThree{
+    height: 66.5rem;
+    background-color: #EFEAD8;
+    .cardSolNumber{
+        width: 13.1875rem;
+        height: 13.1875rem;
+        position: absolute;
+        left: -100px;
+        background-color: #364037;
+        border-radius: 6.5938rem;
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+        font-size: 6rem;
+        font-weight: 700;
+        line-height: 1.5625rem;
+        letter-spacing: .3rem;
+        text-align: center;
+        text-indent: 0;
+        padding-top: 5.7813rem
+    }
+    .cardSolOne{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        height: 25rem;
+        margin-right: 7.5rem;
+        margin-left: 14.375rem;
+        padding-bottom: 5rem;
+        padding-top: 6.8125rem;
+    }
+    .cardSolTwo{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        height: 18.1875rem;
+        margin-right: 7.5rem;
+        margin-left: 14.375rem;
+        padding-bottom: 5rem;
+    }
+    .cardSolThree{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        height: 18.1875rem;
+        margin-right: 7.5rem;
+        margin-left: 14.375rem;
+        padding-bottom: 5rem;
+    }
+    .cardSolContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 68.625rem;
+        height: 100%;
+        border-radius: .625rem;
+        background-color: #6D8B74;
+        h3{
+            padding-bottom: 1.25rem;
+            color: #FFFEFB;
+            font-family: 'Lato', sans-serif;
+            padding-left: 9.375rem;
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 1.5625rem;
+            letter-spacing: .1rem;
+        }
+        p{
+            padding-left: 9.375rem;
+            padding-right: .9375rem;
+            color: #FFFEFB;
+            font-family: 'Lato', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            line-height: 1.5625rem;
+            letter-spacing: .0625rem;
+        }
+    }
+}
+
+.sectionSolFour{
+    width: 100%;
+    height: 43.125rem;
+    background-image: url("../assets/img/ipad.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

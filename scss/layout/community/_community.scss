@@ -1,0 +1,228 @@
+.sectionCommOne{
+    background: #FFFEFB;
+    .welcomComm{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 11.25rem;
+        padding-left: 13.5rem;
+        align-items: center;
+        margin-bottom: 2.5rem;
+        h1{
+            margin-bottom: 2.875rem;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            letter-spacing: .1875rem;
+            font-size: 3.75rem;
+            color: #4B594D;
+            text-align: left;
+        }
+        span{
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            letter-spacing: .1875rem;
+            font-size: 3.75rem;
+            color: #6D8B74;
+            text-align: left;
+        }
+        img{
+            height: 100%;
+            width: 32.0625rem;
+        }
+    }
+    .searchComm{
+        .search-bar{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            form{
+                position: relative;
+            }
+            img{
+                width: 1.25rem;
+                height: 1.25rem;
+                position: absolute;
+                left: 35px;
+                top: 1.5625rem;
+            }
+            input{
+                padding-left: 1.5rem;
+                color: #666666;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                font-size: 1.5rem;
+                border: 5px solid #6D8B74;
+                text-indent: 2rem;
+                width: 32rem;
+                height: 4.4375rem;
+                border-radius: 2.3rem;
+                &:focus{
+                    border: 5px solid #4B594D;
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+.sectionCommTwo{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: 21.25rem 21.25rem;
+    grid-template-areas:
+    "blog-card1 blog-card2 blog-card3"
+    "blog-card4 blog-card5 blog-card6"
+    ;
+    column-gap: 4.375rem;
+    row-gap: 7.5rem;
+    justify-content: center;
+    margin-top: 8rem;
+    background: #FFFEFB;
+    padding-left: 7.5rem;    
+    padding-right: 7.5rem;
+    .blog-card img{
+        width: 21.875rem;
+    }
+    .blog-card-content{
+        display: flex;
+        align-items: center;
+        color: #364037;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.75rem;
+        letter-spacing: .0625rem;
+        text-indent: 0;
+        margin-top: 1.5625rem;
+        img{
+            padding-right: 1.25rem;
+            width: 4.5rem;
+        }
+    }
+}
+.sectionCommThree{
+    background: #EFEAD8;
+    margin-top: 6.8125rem;
+    h2{
+        padding-top: 7.25rem;
+        color: #364037;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.5625rem;
+        letter-spacing: .1rem;
+    }
+    span{
+        color: #6D8B74;
+        font-family: 'Lato', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.5625rem;
+        letter-spacing: .1rem;
+    }
+    .webinar{
+        padding-bottom: 6.25rem;
+        .webinar-card{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 3.75rem;
+            height: 8.75rem;
+            margin-left: 7.5rem;
+            margin-right: 7.5rem;
+            margin-top: 3.625rem;
+            background-color: #364037;
+            border-radius: .625rem;
+            box-shadow: 0rem .25rem .25rem 0rem #1f1f1f;
+            img{
+                margin-left: 1.75rem;
+                width: 5.3125rem;
+                height: 5.3125rem;
+                border-radius: .5625rem;
+            }
+            h3{
+                color: #FFFEFB;
+                font-family: 'Lato', sans-serif;
+                font-size: 2rem;
+                font-weight: 700;
+                line-height: 1.5625rem;
+                letter-spacing: .1rem;
+                display: inline;
+            }
+            p{
+                color: #FFFEFB;
+                font-family: 'Lato', sans-serif;
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.5625rem;
+                letter-spacing: .075rem;
+                padding: 5px;
+            }
+        }
+    }
+}
+.sectionCommFour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFEFB;
+    h2{
+        padding-top: 5.625rem;
+        color: #4B594D;
+        font-family: 'Lato', sans-serif;
+        font-size: 3.75rem;
+        font-weight: 700;
+        line-height: 6.25rem;
+        letter-spacing: .1875rem;
+        text-align: center;
+        padding-top: 5.625rem;
+    }
+    span{
+        color: #6D8B74;
+        font-family: 'Lato', sans-serif;
+        font-size: 3.75rem;
+        font-weight: 700;
+        line-height: 6.25rem;
+        letter-spacing: .1875rem;
+    }
+    input{
+        margin-top: 5.375rem;
+        border: .3125rem solid #6D8B74;
+        height: 4.4375rem;
+        border-radius: 2.875rem;
+        margin-bottom: 6.25rem;
+    }
+    .email-input{
+        width: 39.5rem;
+        color: #666;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.5625rem;
+        letter-spacing: .075rem;
+        text-indent: 1.875rem;
+        box-shadow: 0rem .25rem .25rem 0rem #898989;
+    }
+    &:focus{
+        outline: none;
+    }
+    form{
+        position: relative;
+    }
+    .send-input{
+        position: absolute;
+        right: 5px;
+        width: 9.25rem;
+        border: .3125rem solid #6D8B74;
+        background-color: #6D8B74;
+        box-shadow: 0rem .25rem .25rem 0rem #898989;
+        color: #FFFEFB;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.5625rem;
+        letter-spacing: .075rem;
+        text-align: center;
+    }
+}

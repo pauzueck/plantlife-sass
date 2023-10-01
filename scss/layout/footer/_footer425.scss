@@ -1,0 +1,51 @@
+@media(max-width:  425px){
+    footer{
+        padding-top: 2.5rem;
+        padding-left: 1.5625rem;
+        .solutions-footer{
+            list-style: none;
+            line-height: 1.5625rem;
+            flex-wrap: wrap;
+            margin-right: 1.25rem;
+            margin-bottom: 1.25rem;
+            padding-left: 0rem;
+        }
+        .guides-footer{
+            list-style: none;
+            line-height: 1.5625rem;
+            flex-wrap: wrap;
+            margin-right: .625rem;
+            margin-bottom: 1.25rem;
+            padding-left: 0rem;
+        }
+        .community-footer{
+            list-style: none;
+            line-height: 1.5625rem;
+            flex-wrap: wrap;
+            padding-left: 0rem;
+        }
+        a{
+            text-decoration: none;
+            font-size: 1rem;
+            .logo-footer{
+                width: 6.25rem;
+                margin-bottom: 1.25rem;
+            }
+        }
+        p{
+            text-decoration: none;
+            font-size: .875rem;
+            color:#364037
+        }
+        .social-media{
+            margin-right: 1.5625rem;
+            padding-bottom: 3.125rem;
+            img{
+                width: 1.5625rem;
+            }
+            .ig{
+                margin-right: .9375rem;
+            }
+        }
+    }
+}

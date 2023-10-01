@@ -1,0 +1,108 @@
+@media(max-width: 768px){
+    .sectionAboutOne{
+        height: 31.25rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        h1{
+            padding-right: 3.125rem;
+            font-size: 2.875rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 3.125rem;
+            letter-spacing: .1437rem;
+        }
+        span{
+            font-size: 2.875rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 3.125rem;
+            letter-spacing: .1437rem;
+        }
+    }
+    .sectionAboutTwo{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 21.875rem 30.875rem 61.25rem 23.5rem;
+        grid-template-areas:
+        "aboutPlantLife" 
+        "aboutPlantLifeImage"
+        "aboutUs"
+        "aboutImages"
+        ;
+        padding-top: 5rem;
+        justify-content: center;
+        .aboutPlantLife{
+            grid-area: aboutPlantLife;
+            h2{
+                font-size: 3rem;
+                font-weight: 700;
+                line-height: 2.1875rem;
+                letter-spacing: .15rem;
+                text-align: center;
+            }
+            p{
+                padding-top: 3.75rem;
+                width: 40.25rem;
+                text-align: center;
+                font-size: 1.25rem;
+                font-weight: 700;
+                line-height: 2.1875rem; 
+                letter-spacing: .0625rem;
+            }
+        }
+        .aboutPlantLifeImage{
+            display: flex;
+            justify-content: center;
+            grid-area: aboutPlantLifeImage;
+            margin-bottom: 3.125rem;
+            margin-top: 1.25rem;
+        }
+        .aboutUs{
+            grid-area: aboutUs;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h2{
+                text-align: center;
+                font-size: 3.75rem;
+                font-weight: 700;
+                letter-spacing: .1875rem;
+                text-indent: 0;
+            }
+            p{
+                text-align: center;
+                padding-top: 3.75rem;
+                width: 37.8125rem;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 2.1875rem;
+                letter-spacing: .0625rem;
+                text-indent: 0;
+                margin-bottom: 7.5rem;
+            }
+        }
+        .aboutImages{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            grid-area: aboutImages;
+            justify-content: space-evenly;
+            margin-bottom: 5rem;
+        }
+        .sectionAboutTwo img{
+            border-radius: 15px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+        .lilyImage{
+            margin-bottom: 3.125rem;
+            width: 18.4375rem;
+        }
+        .plantAbout{
+            width: 18.4375rem;
+            margin-bottom: 3.125rem;
+        }
+    }
+}

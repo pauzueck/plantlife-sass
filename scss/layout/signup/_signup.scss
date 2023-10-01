@@ -1,0 +1,51 @@
+.signup{
+    display: flex;
+    justify-content: center;
+    height: 8.75rem;
+    text-align: center;
+    img{
+        width: 17.8125rem;
+        padding-top: 2.5rem;
+    }
+}
+    .form{
+        height: 46.875rem;
+        background-color: #364037;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        border-color: #364037;
+        h1{
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            font-weight: 500;
+            font-size: 3.75rem;
+            color: #FFFEFB;
+            margin-bottom: 3.75rem;
+        }
+        p{
+            font-family: 'Merriweather', serif;
+            font-weight: lighter;
+            color: #FFFEFB;
+        }
+        input{
+            margin-bottom: 1.25rem;
+            color: #666666;
+            border: none;
+            text-indent: .625rem;
+            width: 25rem;
+            height: 2.5rem;
+            border-radius: .625rem;
+        }
+        .submitSignUp{
+            margin-top: 1.25rem;
+            margin-bottom: .625rem;
+        }
+        .footerSignUp{
+            background-color: #364037;
+        }
+    }   
+
+.footersignUp{
+    height: 6.25rem;
+    background-color: #364037;
+}
