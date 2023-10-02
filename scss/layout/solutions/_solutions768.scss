@@ -1,0 +1,79 @@
+@media(max-width: 768px){
+    .sectionSolThree{
+        height: 100%;
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5rem;
+        .cardSolNumber{
+            position: absolute;
+            left: -3.75rem;
+            top: -0.625rem;
+            width: 7.5rem;
+            height: 7.5rem;
+            font-size: 3.75rem;
+            font-weight: 700;
+            line-height: 1.5625rem;
+            letter-spacing: .3rem;
+            text-align: center;
+            text-indent: 0;
+            padding-top: 2.8125rem;
+        }
+        .cardSolOne{
+            height: 100%;
+            margin-right: 3.75rem;
+            margin-left: 7.5rem;
+            padding-bottom: 3.125rem;
+            padding-top: 3.125rem;
+        }
+        .cardSolTwo{
+            height: 100%;
+            margin-right: 3.75rem;
+            margin-left: 7.5rem;
+            padding-bottom: 3.125rem;
+            padding-top: 3.125rem;
+        }
+        .cardSolThree{
+            height: 100%;
+            margin-right: 3.75rem;
+            margin-left: 7.5rem;
+            padding-bottom: 3.125rem;
+            padding-top: 3.125rem;
+        }
+        .cardSolContent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 68.625rem;
+            height: 100%;
+            border-radius: .625rem;
+            background-color: #6D8B74;
+            h3{
+                display: flex;
+                justify-content: center;
+                padding-left: .9375rem;
+                padding-right: .9375rem;
+                padding-bottom: .3125rem;
+                padding-top: 2.5rem;
+                font-size: 1.75rem;
+                font-weight: 700;
+                line-height: 1.5625rem; 
+                letter-spacing: .1rem;
+                text-align: center;
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                padding-left: .9375rem;
+                padding-right: .9375rem;
+                padding-bottom: 2.5rem;
+                font-size: 1rem;
+                font-weight: 500;
+                line-height: 1.5625rem; 
+                letter-spacing: .0625rem;
+                text-align: center;
+            }
+        }
+    }
+}

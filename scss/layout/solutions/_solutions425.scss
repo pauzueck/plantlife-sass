@@ -1,0 +1,207 @@
+@media(max-width: 425px){
+    .sectionSolOne{
+        h1{
+            padding-top: 3.125rem;
+            margin-bottom: 1.4375rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1.875rem; 
+            letter-spacing: .075rem;
+        }
+        span{
+            padding-top: 6.25rem;
+            margin-bottom: 1.4375rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1.875rem; 
+            letter-spacing: .075rem;
+        }
+        p{
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5625rem; 
+            letter-spacing: .05rem;
+        }
+        button{
+            padding: .375rem 1.25rem;
+            margin-top: 1.25rem;
+            margin-bottom: 3.125rem;
+            border: none;
+            border-radius: 3.75rem;
+            a{
+                font-size: 1rem;
+                font-weight: 700;
+                line-height: 1.5625rem;
+                letter-spacing: .05rem;
+            }
+        }
+    }
+    .sectionSolTwo{
+        h2{
+            display: flex;
+            text-align: center;
+            padding-top: 5rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1.5625rem; 
+            letter-spacing: .075rem;
+            text-indent: 0;
+        }
+        p{
+            text-align: center;
+            width: 21.875rem;
+            padding-top: 1.875rem;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.875rem; 
+            letter-spacing: .05rem;
+            text-indent: 0;
+        }
+        img{
+            height: 19.375rem;
+            padding-top: 3.125rem;
+            margin-bottom: 6.8125rem;
+        }
+    }
+    .sectionSolThree{
+        height: 100%;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        .cardSolNumber{
+            position: absolute;
+            left: -100px;
+            width: 13.1875rem;
+            height: 13.1875rem;
+            font-size: 6rem;
+            font-weight: 700;
+            line-height: 1.5625rem;
+            letter-spacing: .3rem;
+            text-align: center;
+            text-indent: 0;
+            padding-top: 5.7813rem
+        }
+        .cardSolOne{
+            height: 19.4375rem;
+            margin-right: 2.5rem;
+            margin-left: 8.75rem;
+            padding-bottom: 3.125rem;
+            padding-top: 3.125rem;
+        }
+        .cardSolTwo{
+            height: 19.4375rem;
+            margin-right: 2.5rem;
+            margin-left: 8.75rem;
+            padding-bottom: 3.125rem;
+            padding-top: 3.125rem;
+        }
+        .cardSolThree{
+            height: 19.4375rem;
+            margin-right: 2.5rem;
+            margin-left: 8.75rem;
+            padding-bottom: 3.125rem;
+            padding-top: 3.125rem;
+        }
+        .cardSolContent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 68.625rem;
+            height: 100%;
+            border-radius: .625rem;
+            background-color: #6D8B74;
+            h3{
+                padding-bottom: .3125rem;
+                padding-left: 9.375rem;
+                font-size: 1.75rem;
+                font-weight: 700;
+                line-height: 1.5625rem; 
+                letter-spacing: .1rem;
+            }
+            p{
+                padding-left: 9.375rem;
+                padding-right: .9375rem;
+                font-size: 1rem;
+                font-weight: 500;
+                line-height: 1.5625rem; 
+                letter-spacing: .0625rem;
+            }
+        }
+    }
+    .sectionSolThree{
+        height: 100%;
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5rem;
+        .cardSolNumber{
+            position: absolute;
+            left: -3.75rem;
+            top: -0.625rem;
+            width: 7.5rem;
+            height: 7.5rem;
+            font-size: 3.75rem;
+            font-weight: 700;
+            line-height: 1.5625rem;
+            letter-spacing: .3rem;
+            text-align: center;
+            text-indent: 0;
+            padding-top: 2.8125rem;
+        }
+        .cardSolOne{
+            height: 100%;
+            margin-right: 2.5rem;
+            margin-left: 5rem;
+            padding-bottom: 3.125rem;
+            padding-top: 3.125rem;
+        }
+        .cardSolTwo{
+            height: 100%;
+            margin-right: 2.5rem;
+            margin-left: 5rem;
+            padding-bottom: 3.125rem;
+            padding-top: 3.125rem;
+        }
+        .cardSolThree{
+            height: 100%;
+            margin-right: 2.5rem;
+            margin-left: 5rem;
+            padding-bottom: 3.125rem;
+            padding-top: 3.125rem;
+        }
+        .cardSolContent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 68.625rem;
+            height: 100%;
+            border-radius: .625rem;
+            background-color: #6D8B74;
+            h3{
+                display: flex;
+                justify-content: center;
+                padding-left: .9375rem;
+                padding-right: .9375rem;
+                padding-bottom: .3125rem;
+                padding-top: 4.0625rem;
+                font-size: 1.75rem;
+                font-weight: 700;
+                line-height: 1.5625rem; 
+                letter-spacing: .1rem;
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                padding-left: .9375rem;
+                padding-right: .9375rem;
+                padding-bottom: 1.875rem;
+                font-size: 1rem;
+                font-weight: 500;
+                line-height: 1.5625rem; 
+                letter-spacing: .0625rem;
+            }
+        }
+    }
+}

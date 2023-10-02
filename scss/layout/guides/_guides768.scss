@@ -1,87 +1,94 @@
-.sectionGuideOne{
-    h1{
-        width: 37.5rem;
-        margin-top: 6.25rem;
-        font-size: 46px;
-        font-weight: 700;
-        line-height: 3.75rem;
-        letter-spacing: .1437rem;
-    }
-    span{
-        @extend h1;
-    }
-    p{    
-        width: 600px;
-        margin-top: 3.6875rem;
-        margin-bottom: 4.875rem;
-        font-size: 1rem;
-        font-weight: 500;
-        line-height: 1.875rem;
-        letter-spacing: .0625rem;
-    }
-}
-.sectionGuideTwo{
-    .card{
-        width: 16.125rem;
-        height: 15.625rem;
-        border-radius: 2.5rem 2.5rem 0rem 0rem;
-        margin-bottom: 9.375rem;
-        img{
-            margin-left: 1.5625rem;
-            width: 80%;
-            margin-top: 1.875rem
+@media(max-width: 768px){
+    .sectionGuideOne{
+        h1{
+            width: 37.5rem;
+            margin-top: 6.25rem;
+            font-size: 46px;
+            font-weight: 700;
+            line-height: 3.75rem;
+            letter-spacing: .1437rem;
         }
-        .card-content{
-            height: 6.0625rem;
+        span{
+            width: 37.5rem;
+            margin-top: 6.25rem;
+            font-size: 46px;
+            font-weight: 700;
+            line-height: 3.75rem;
+            letter-spacing: .1437rem;
+        }
+        p{    
+            width: 600px;
+            margin-top: 3.6875rem;
+            margin-bottom: 4.875rem;
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 1.875rem;
+            letter-spacing: .0625rem;
+        }
+    }
+    .sectionGuideTwo{
+        .card{
             width: 16.125rem;
-            p{
-                padding: 0rem .625rem;
-                font-size: .625rem;
-                font-weight: 700;
-                line-height: 1rem;
-                letter-spacing: .0313rem;
+            height: 15.625rem;
+            border-radius: 2.5rem 2.5rem 0rem 0rem;
+            margin-bottom: 9.375rem;
+            img{
+                margin-left: 1.5625rem;
+                width: 80%;
+                margin-top: 1.875rem
             }
-            h2{
-                font-size: .875rem;
-                font-weight: 700;
-                line-height: 1.25rem;
-                letter-spacing: .0437rem;
-                padding-top: .625rem;
+            .card-content{
+                height: 6.0625rem;
+                width: 16.125rem;
+                p{
+                    padding: 0rem .625rem;
+                    font-size: .625rem;
+                    font-weight: 700;
+                    line-height: 1rem;
+                    letter-spacing: .0313rem;
+                }
+                h2{
+                    font-size: .875rem;
+                    font-weight: 700;
+                    line-height: 1.25rem;
+                    letter-spacing: .0437rem;
+                    padding-top: .625rem;
+                }
             }
         }
+        
     }
-    
-}
-.sectionGuideThree{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-left: 0rem;
-    h2{
-        text-align: center;
-        font-weight: 500;
-        letter-spacing: .1875rem;
-        font-size: 3.75rem;
-        padding-top: 5rem;
-    }
-    button{
-        margin-top: 3.125rem;
-        margin-bottom: 1.875rem;
-        margin-left: 11.25rem;
-        padding: .9375rem 2.1875rem;
-        border-radius: 3.75rem;
-        a{
-            font-size: 2rem;
-        }
-    }
-    img{
+    .sectionGuideThree{
         display: flex;
+        flex-direction: column;
         align-items: center;
-        margin-top: 0rem;
-        margin-right: 0rem;
-        margin-bottom: 5rem;
-        width: 21.875rem;
-        border-radius: .9375rem;
+        justify-content: center;
+        padding-left: 0rem;
+        h2{
+            text-align: center;
+            font-weight: 500;
+            letter-spacing: .1875rem;
+            font-size: 3.75rem;
+            padding-top: 5rem;
+        }
+        button{
+            margin-top: 3.125rem;
+            margin-bottom: 1.875rem;
+            margin-left: 11.25rem;
+            padding: .9375rem 2.1875rem;
+            border-radius: 3.75rem;
+            a{
+                font-size: 2rem;
+            }
+        }
+        img{
+            display: flex;
+            align-items: center;
+            margin-top: 0rem;
+            margin-right: 0rem;
+            margin-bottom: 5rem;
+            width: 21.875rem;
+            border-radius: .9375rem;
+        }
     }
-}
+}    

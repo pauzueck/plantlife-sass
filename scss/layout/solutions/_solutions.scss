@@ -46,9 +46,9 @@
             font-size: 2rem;
         }
     }
+}
 
-
-}.sectionSolTwo{
+.sectionSolTwo{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -83,7 +83,9 @@
 }
 
 .sectionSolThree{
-    height: 66.5rem;
+    height: 100%;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
     background-color: #EFEAD8;
     .cardSolNumber{
         width: 13.1875rem;
@@ -139,7 +141,7 @@
         border-radius: .625rem;
         background-color: #6D8B74;
         h3{
-            padding-bottom: 1.25rem;
+            padding-bottom: .3125rem;
             color: #FFFEFB;
             font-family: 'Lato', sans-serif;
             padding-left: 9.375rem;

@@ -1,0 +1,70 @@
+@media(max-width: 425px){
+    .sectionGuideOne{
+    h1{
+        width: 23.75rem;
+        margin-top: 2.5rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2.25rem; 
+        letter-spacing: .075rem;
+    }
+    span{
+        width: 23.75rem;
+        margin-top: 2.5rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2.25rem; 
+        letter-spacing: .075rem;
+    }
+    p{    
+        width: 17.5rem;
+        margin-top: 1.875rem;
+        margin-bottom: 2.5rem;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.5625rem; 
+        letter-spacing: .05rem;
+    }
+}
+.sectionGuideTwo{
+    .card{
+        margin-bottom: 7.5rem;
+    }
+    
+}
+.sectionGuideThree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0rem;
+    h2{
+        text-align: center;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.875rem;
+        letter-spacing: .075rem;
+        padding-top: 3.125rem;
+    }
+    button{
+        margin-left: 4.0625rem;
+        margin-top: 1.875rem;
+        margin-bottom: 2.5rem;
+        padding: .5rem 1.25rem;
+        border-radius: 3.75rem;
+        a{
+            font-size: 1rem;
+        }
+    }
+    img{
+        display: flex;
+        align-items: center;
+        margin-top: 0rem;
+        margin-right: 0rem;
+        margin-bottom: 5rem;
+        width: 13.0625rem;
+        border-radius: .9375rem;
+    }
+    }
+}
