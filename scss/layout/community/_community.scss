@@ -1,5 +1,5 @@
 .sectionCommOne{
-    background: #FFFEFB;
+    background: $almost-white;
     .welcomComm{
         display: flex;
         justify-content: space-between;
@@ -13,7 +13,7 @@
             font-weight: 700;
             letter-spacing: .1875rem;
             font-size: 3.75rem;
-            color: #4B594D;
+            color: $dark-green;
             text-align: left;
         }
         span{
@@ -21,7 +21,7 @@
             font-weight: 700;
             letter-spacing: .1875rem;
             font-size: 3.75rem;
-            color: #6D8B74;
+            color: $light-green;
             text-align: left;
         }
         img{
@@ -46,17 +46,17 @@
             }
             input{
                 padding-left: 1.5rem;
-                color: #666666;
+                color: $dark-green;
                 font-family: 'Lato', sans-serif;
                 font-weight: 400;
                 font-size: 1.5rem;
-                border: 5px solid #6D8B74;
+                border: 5px solid $light-green;
                 text-indent: 2rem;
                 width: 32rem;
                 height: 4.4375rem;
                 border-radius: 2.3rem;
                 &:focus{
-                    border: 5px solid #4B594D;
+                    border: 5px solid $dark-green;
                     outline: none;
                 }
             }
@@ -75,7 +75,7 @@
     row-gap: 7.5rem;
     justify-content: center;
     margin-top: 8rem;
-    background: #FFFEFB;
+    background: $almost-white;
     padding-left: 7.5rem;    
     padding-right: 7.5rem;
     .blog-card img{
@@ -84,7 +84,7 @@
     .blog-card-content{
         display: flex;
         align-items: center;
-        color: #364037;
+        color: $dark-green;
         font-family: 'Lato', sans-serif;
         font-size: 1.25rem;
         font-weight: 700;
@@ -99,11 +99,11 @@
     }
 }
 .sectionCommThree{
-    background: #EFEAD8;
+    background: $almost-white;
     margin-top: 6.8125rem;
     h2{
         padding-top: 7.25rem;
-        color: #364037;
+        color: $dark-green;
         text-align: center;
         font-family: 'Lato', sans-serif;
         font-size: 2rem;
@@ -112,7 +112,7 @@
         letter-spacing: .1rem;
     }
     span{
-        color: #6D8B74;
+        color: $light-green;
         font-family: 'Lato', sans-serif;
         font-size: 2rem;
         font-weight: 700;
@@ -131,7 +131,7 @@
             margin-left: 7.5rem;
             margin-right: 7.5rem;
             margin-top: 3.625rem;
-            background-color: #364037;
+            background-color: $dark-green;
             border-radius: .625rem;
             box-shadow: 0rem .25rem .25rem 0rem #1f1f1f;
             img{
@@ -141,7 +141,7 @@
                 border-radius: .5625rem;
             }
             h3{
-                color: #FFFEFB;
+                color: $almost-white;
                 font-family: 'Lato', sans-serif;
                 font-size: 2rem;
                 font-weight: 700;
@@ -150,7 +150,7 @@
                 display: inline;
             }
             p{
-                color: #FFFEFB;
+                color: $almost-white;
                 font-family: 'Lato', sans-serif;
                 font-size: 1.5rem;
                 font-style: normal;
@@ -166,10 +166,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #FFFEFB;
+    background: $almost-white;
     h2{
         padding-top: 5.625rem;
-        color: #4B594D;
+        color: $dark-green;
         font-family: 'Lato', sans-serif;
         font-size: 3.75rem;
         font-weight: 700;
@@ -179,7 +179,7 @@
         padding-top: 5.625rem;
     }
     span{
-        color: #6D8B74;
+        color: $light-green;
         font-family: 'Lato', sans-serif;
         font-size: 3.75rem;
         font-weight: 700;
@@ -188,14 +188,14 @@
     }
     input{
         margin-top: 5.375rem;
-        border: .3125rem solid #6D8B74;
+        border: .3125rem solid $light-green;
         height: 4.4375rem;
         border-radius: 2.875rem;
         margin-bottom: 6.25rem;
     }
     .email-input{
         width: 39.5rem;
-        color: #666;
+        color: $light-green;
         font-family: 'Lato', sans-serif;
         font-size: 1.5rem;
         font-weight: 400;
@@ -217,7 +217,7 @@
         border: .3125rem solid #6D8B74;
         background-color: #6D8B74;
         box-shadow: 0rem .25rem .25rem 0rem #898989;
-        color: #FFFEFB;
+        color: $almost-white;
         font-family: 'Lato', sans-serif;
         font-size: 1.5rem;
         font-weight: 700;

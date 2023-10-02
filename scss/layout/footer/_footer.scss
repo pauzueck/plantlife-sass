@@ -1,5 +1,5 @@
 footer{
-    background-color: #FFFEFB;
+    background-color: $almost-white;
     padding-top: 3.4375rem;
     padding-left: 7.5rem;
     .pagesFooter{
@@ -12,9 +12,7 @@ footer{
         margin-right: 3.125rem;
     }
     .guides-footer{
-        list-style: none;
-        line-height: 1.875rem;
-        margin-right: 3.125rem;
+        @extend .solutions-footer;
     }
     .community-footer{
         list-style: none;
@@ -24,9 +22,9 @@ footer{
         text-decoration: none;
         font-family: 'Lato', sans-serif;
         font-size: 1.25rem;
-        color:#364037;
+        color:$dark-green;
         &:hover{
-            color: #6D8B74;
+            color: $light-green;
             font-weight: 900;
         }
         .logo-footer{
@@ -37,7 +35,7 @@ footer{
         text-decoration: none;
         font-family: 'Merriweather', serif;
         font-size: 1rem;
-        color:#364037
+        color:$dark-green;
     }
     .social-media{
         display: flex;

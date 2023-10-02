@@ -1,7 +1,7 @@
 .sectionOne{
     @include flex(none, center, none);
     text-align: center;
-    background-color: #FFFEFB;
+    background-color: $almost-white;
     padding: 6.25rem;
     h1{
         margin-bottom: 2.875rem;
@@ -9,39 +9,35 @@
         font-weight: 700;
         letter-spacing: .1875rem;
         font-size: 3.75rem;
-        color: #4B594D;
+        color: $dark-green;
     }
     span{
-        margin-bottom: 2.875rem;
-        font-family: 'Lato', sans-serif;
-        font-weight: 700;
-        letter-spacing: .1875rem;
-        font-size: 3.75rem;
-        color: #6D8B74;
+        @extend h1;
+        color: $light-green;
     }
     p{
         width: 37.75rem;
         font-family: 'Merriweather', serif;
         font-weight: 300;
         font-size: 1.25rem;
-        color: #4B594D;
+        color: $dark-green;
         letter-spacing: .125rem;
     }
     button{
-        background-color: #6D8B74;
+        background-color: $light-green;
+        &:hover{
+            color: $dark-green;
+        }
         padding: .75rem 2.1875rem;
         margin: 4rem;
         border: none;
         border-radius: 3.75rem;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        &:hover{
-            color: #4B594D;
-        }
         a{
             text-decoration: none;
             font-weight: 500;
             letter-spacing: .125rem;
-            color: #FFFEFB;
+            color: $almost-white;
             font-family: 'Lato', sans-serif;
             font-size: 2rem;
         }
@@ -66,11 +62,11 @@
         margin: 0 auto;
     }
     .carousel-control-next-icon {
-        background-color: #4B594D;
+        background-color: $dark-green;
         border-radius: 1.25rem;
     }
     .carousel-control-prev-icon {
-        background-color: #4B594D;
+        background-color: $dark-green;
         border-radius: 1.25rem;
     }
     .textSectionTwo{
@@ -83,16 +79,11 @@
         font-family: 'Lato', sans-serif;
         font-weight: 500;
         font-size: 32px;
-        color: #4B594D;
+        color: $dark-green;
     }
     span{
-        margin-top: 4.375rem;
-        margin-bottom: 1.875rem;
-        text-align: center;
-        font-family: 'Lato', sans-serif;
-        font-weight: 500;
-        font-size: 32px;
-        color: #6D8B74;
+        @extend h2;
+        color: $light-green;
     }
     p{
         text-align: center;
@@ -101,7 +92,7 @@
         font-size: 1.125rem;
         line-height: 1.875rem;
         letter-spacing: .0625rem;
-        color: #4B594D;
+        color: $dark-green;
         padding-left: 13.625rem;
         padding-right: 13.625rem;
         margin-bottom: 3.4375rem;
@@ -110,7 +101,7 @@
 
 
 .sectionThree{
-    background-color: #FFFEFB;
+    background-color: $almost-white;
     padding-left: 7.75rem;
     padding-right: 7.75rem;
     .solutionsHome{
@@ -121,14 +112,13 @@
         font-family: 'Lato', sans-serif;
         font-weight: 500;
         font-size: 2rem;
-        color: #4B594D;
+        color: $dark-green;
         .capture-learn{
             @include flex(row, space-evenly, none);
             width: 25rem;
         }
         .set-nurture{
-            @include flex(row, space-evenly, none);
-            width: 25rem;
+            @extend .capture-learn;
         }
     }
     .descriptionSectionThree{
@@ -142,7 +132,7 @@
             font-size: 1.125rem;
             letter-spacing: .0625rem;
             line-height: 3.125rem;
-            color: #4B594D;
+            color: $dark-green;
             padding-bottom: 5rem;
             
         }
@@ -164,8 +154,7 @@
             height: 12.5rem;
         }
         .leafTwo{
-            width: 22.5rem;
-            height: 12.5rem;
+            @extend .leafOne;
         }
         h2{
             margin-top: 3.125rem;
@@ -175,21 +164,21 @@
             font-weight: 700;
             letter-spacing: .1875rem;
             font-size: 3.75rem;
-            color: #4B594D;
+            color: $dark-green;
         }
         button{
-            background-color: #6D8B74;
+            background-color: $light-green;
             padding: .9375rem 1.875rem;
             border: none;
             border-radius: 3.75rem;
             box-shadow: 0rem .25rem .25rem 0rem #afafaf;
             margin-bottom: 3.125rem;
             &:hover{
-                color: #4B594D;
+                color: $dark-green;
             }
             a{
                 text-decoration: none;
-                color: #FFFEFB;
+                color: $almost-white;
                 font-family: 'Lato', sans-serif;
                 font-size: 2rem;
             }

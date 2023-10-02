@@ -13,7 +13,7 @@
         letter-spacing: .1875rem;
         line-height: 3.125rem;
         font-size: 3.75rem;
-        color: #4B594D;
+        color: $dark-green;
         text-align: right;
         text-indent: 0;
     }
@@ -22,7 +22,7 @@
         font-weight: 700;
         letter-spacing: .1875rem;
         font-size: 3.75rem;
-        color: #6D8B74;
+        color: $light-green;
     }
 }
 
@@ -37,7 +37,7 @@
     padding-top: 9.375rem;
     padding-left: 7.5rem;
     padding-right: 7.5rem;
-    background-color: #364037;
+    background-color: $dark-green;
     .aboutPlantLife{
         margin-bottom: 7.5rem;
         h2{

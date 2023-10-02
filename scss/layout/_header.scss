@@ -2,7 +2,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-color: #364037;
+    background-color: $dark-green;
     width: 100%;
     .navbar-brand img{
         position: absolute;
@@ -11,7 +11,7 @@ header{
         height: 1.875rem;
     }
     .navbar-nav .nav-item.active .nav-link {
-        color: #364037;
+        color: $dark-green;
     }
     .navbar-toggler{
         border: none;
@@ -28,11 +28,11 @@ header{
         font-family: 'Lato', sans-serif;
         color:#FFFEFB;
         &:hover{
-        color: #6D8B74;
+        color: $light-green;
     }
     }
 .dropdown-menu{
-    background-color: #6D8B74;
+    background-color: $light-green;
     width: 6.25rem;
     }
 }

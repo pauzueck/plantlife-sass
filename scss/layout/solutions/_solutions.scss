@@ -1,47 +1,45 @@
 .sectionSolOne{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex(column, center, none);
     background-color: #EFEAD8;
     text-align: center;
     h1{
-        padding-top: 6.25rem;
+        padding-top: 8.125rem;
         margin-bottom: 1.4375rem;
         font-family: 'Lato', sans-serif;
         font-weight: 700;
         letter-spacing: .1875rem;
         font-size: 3.75rem;
-        color: #4B594D;
+        color: $dark-green;
     }
     span{
         font-family: 'Lato', sans-serif;
         font-weight: 700;
         letter-spacing: .1875rem;
         font-size: 3.75rem;
-        color: #6D8B74;
+        color: $light-green;
     }
     p{
         font-family: 'Merriweather', serif;
         font-weight: 300;
         font-size: 1.25rem;
-        color: #4B594D;
+        color: $dark-green;
         letter-spacing: .125rem;
     }
     button{
-        background-color: #6D8B74;
+        background-color: $light-green;
         padding: .75rem 2.1875rem;
-        margin: 4rem;
+        margin: 4rem 4rem 10rem 4rem;
         border: none;
         border-radius: 3.75rem;
         box-shadow: 0rem .25rem .25rem 0rem rgba(0, 0, 0, 0.25);
         &:hover{
-            color: #4B594D;
+            color: $dark-green;
         }
         a{
             text-decoration: none;
             font-weight: 500;
             letter-spacing: .125rem;
-            color: #FFFEFB;
+            color: $almost-white;
             font-family: 'Lato', sans-serif;
             font-size: 2rem;
         }
@@ -49,15 +47,14 @@
 }
 
 .sectionSolTwo{
-    display: flex;
-    justify-content: space-around;
+    @include flex(none, space-around, none);
     flex-wrap: wrap;
-    background-color: #FFFEFB;
+    background-color: $almost-white;
     h2{
         text-align: left;
         padding-top: 6.5625rem;
         padding-left: 7.8125rem;
-        color: #4B594D;
+        color: $dark-green;
         font-family: 'Lato', sans-serif;
         font-size: 3.75rem;
         font-weight: 700;
@@ -67,7 +64,7 @@
     p{
         width: 32.75rem;
         padding-top: 3.125rem;
-        color: #4B594D;
+        color: $dark-green;
         font-family: 'Merriweather', serif;
         font-size: 1.25rem;
         font-weight: 700;
@@ -92,9 +89,9 @@
         height: 13.1875rem;
         position: absolute;
         left: -100px;
-        background-color: #364037;
+        background-color: $dark-green;
         border-radius: 6.5938rem;
-        color: #FFF;
+        color: $almost-white;
         font-family: 'Lato', sans-serif;
         font-size: 6rem;
         font-weight: 700;
@@ -105,8 +102,7 @@
         padding-top: 5.7813rem
     }
     .cardSolOne{
-        display: flex;
-        justify-content: flex-end;
+        @include flex(none, flex-end, none);
         position: relative;
         height: 25rem;
         margin-right: 7.5rem;
@@ -115,8 +111,7 @@
         padding-top: 6.8125rem;
     }
     .cardSolTwo{
-        display: flex;
-        justify-content: flex-end;
+        @include flex(none, flex-end, none);
         position: relative;
         height: 18.1875rem;
         margin-right: 7.5rem;
@@ -124,8 +119,7 @@
         padding-bottom: 5rem;
     }
     .cardSolThree{
-        display: flex;
-        justify-content: flex-end;
+        @include flex(none, flex-end, none);
         position: relative;
         height: 18.1875rem;
         margin-right: 7.5rem;
@@ -133,16 +127,14 @@
         padding-bottom: 5rem;
     }
     .cardSolContent{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @include flex(column, center, none);
         width: 68.625rem;
         height: 100%;
         border-radius: .625rem;
-        background-color: #6D8B74;
+        background-color: $light-green;
         h3{
             padding-bottom: .3125rem;
-            color: #FFFEFB;
+            color: $almost-white;
             font-family: 'Lato', sans-serif;
             padding-left: 9.375rem;
             font-size: 2rem;
@@ -153,7 +145,7 @@
         p{
             padding-left: 9.375rem;
             padding-right: .9375rem;
-            color: #FFFEFB;
+            color: $almost-white;
             font-family: 'Lato', sans-serif;
             font-size: 1.25rem;
             font-weight: 700;
