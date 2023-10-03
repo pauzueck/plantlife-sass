@@ -1,4 +1,4 @@
-@media(max-width: 768px){
+@media(max-width: 874px){
     .sectionAboutOne{
         height: 31.25rem;
         background-size: cover;
@@ -33,6 +33,10 @@
         ;
         padding-top: 5rem;
         justify-content: center;
+        img{
+            border-radius: 15px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
         .aboutPlantLife{
             grid-area: aboutPlantLife;
             h2{
@@ -53,17 +57,14 @@
             }
         }
         .aboutPlantLifeImage{
-            display: flex;
-            justify-content: center;
+            @include flex(none, center, none);
             grid-area: aboutPlantLifeImage;
             margin-bottom: 3.125rem;
             margin-top: 1.25rem;
         }
         .aboutUs{
             grid-area: aboutUs;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            @include flex(column, center, none);
             h2{
                 text-align: center;
                 font-size: 3.75rem;
@@ -85,11 +86,8 @@
             }
         }
         .aboutImages{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+            @include flex(row, space-evenly, center);
             grid-area: aboutImages;
-            justify-content: space-evenly;
             margin-bottom: 5rem;
         }
         .sectionAboutTwo img{

@@ -2,8 +2,7 @@
     .sectionCommOne{
         margin-top: 1.25rem;
         .welcomComm{
-            display: flex;
-            justify-content: space-between;
+            @include flex(none, space-between, none);
             padding-right: 3.125rem;
             padding-left: 3.125rem;
             align-items: center;
@@ -87,11 +86,8 @@
         .webinar{
             padding-bottom: 3.125rem;
             .webinar-card{
-                display: flex;
-                flex-direction: row;
+                @include flex(row, space-between, center);
                 padding-right: 1.75rem;
-                align-items: center;
-                justify-content: space-between;
                 height: 6.25rem;
                 margin-left: 3.125rem;
                 margin-right: 3.125rem;

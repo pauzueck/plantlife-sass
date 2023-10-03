@@ -23,10 +23,12 @@ header {
   header .navbar-nav .nav-item.active .nav-link {
     color: #364037; }
   header .navbar-toggler {
+    background-color: #FFFEFB;
     border: none; }
     header .navbar-toggler:focus {
       all: unset; }
   header .navbar-toggler-icon {
+    width: 1.5625rem;
     background-image: var(--bs-navbar-toggler-icon-bg); }
   header .navbar li a {
     margin-left: .3125rem;
@@ -46,7 +48,8 @@ header {
   align-items: none;
   text-align: center;
   background-color: #FFFEFB;
-  padding: 6.25rem; }
+  padding: 6.25rem;
+  height: 100vh; }
   .sectionOne h1, .sectionOne span {
     margin-bottom: 2.875rem;
     font-family: "Lato", sans-serif;
@@ -301,15 +304,16 @@ header {
   .sectionOne {
     padding: 1.5625rem; }
     .sectionOne h1, .sectionOne span {
+      padding-top: 3.75rem;
       margin-bottom: 1.875rem;
-      font-size: 1.75rem;
+      font-size: 2.875rem;
       font-weight: 700;
-      line-height: 2.5rem;
+      line-height: 3.125rem;
       letter-spacing: .0875rem; }
     .sectionOne span {
-      font-size: 1.75rem;
+      font-size: 2.875rem;
       font-weight: 700;
-      line-height: 2.5rem;
+      line-height: 3.125rem;
       letter-spacing: .0875rem; }
     .sectionOne p {
       width: 80%;
@@ -331,7 +335,9 @@ header {
     padding-top: 0; }
     .sectionTwo .imagesSectionTwo {
       display: flex;
+      flex-direction: none;
       justify-content: space-evenly;
+      align-items: none;
       flex-wrap: wrap; }
     .sectionTwo .carousel-inner {
       width: 18.75rem;
@@ -371,6 +377,8 @@ header {
     .sectionThree .solutionsHome {
       display: flex;
       flex-direction: column;
+      justify-content: none;
+      align-items: none;
       margin-top: 2.5rem;
       margin-bottom: 2.5rem;
       font-weight: 500;
@@ -378,7 +386,9 @@ header {
       padding-left: 0; }
     .sectionThree .descriptionSectionThree {
       display: flex;
+      flex-direction: none;
       justify-content: space-around;
+      align-items: none;
       flex-wrap: wrap; }
       .sectionThree .descriptionSectionThree p {
         margin-left: 1.25rem;
@@ -396,6 +406,7 @@ header {
   .sectionFour {
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
     padding-bottom: .625rem; }
     .sectionFour h2, .sectionFour .sectionTwo span, .sectionTwo .sectionFour span {
@@ -767,36 +778,38 @@ header {
         text-align: center; } }
 
 @media (max-width: 425px) {
-  .sectionSolOne h1, .sectionSolOne .sectionOne span, .sectionOne .sectionSolOne span {
-    padding-top: 3.125rem;
-    margin-bottom: 1.4375rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1.875rem;
-    letter-spacing: .075rem; }
-  .sectionSolOne span {
-    padding-top: 6.25rem;
-    margin-bottom: 1.4375rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1.875rem;
-    letter-spacing: .075rem; }
-  .sectionSolOne p {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5625rem;
-    letter-spacing: .05rem; }
-  .sectionSolOne button {
-    padding: .375rem 1.25rem;
-    margin-top: 1.25rem;
-    margin-bottom: 3.125rem;
-    border: none;
-    border-radius: 3.75rem; }
-    .sectionSolOne button a {
-      font-size: 1rem;
+  .sectionSolOne {
+    height: 100vh; }
+    .sectionSolOne h1, .sectionSolOne .sectionOne span, .sectionOne .sectionSolOne span {
+      padding-top: 5rem;
+      margin-bottom: 1.4375rem;
+      font-size: 2.875rem;
       font-weight: 700;
+      line-height: 3.125rem;
+      letter-spacing: .075rem; }
+    .sectionSolOne span {
+      padding-top: 6.25rem;
+      margin-bottom: 1.4375rem;
+      font-size: 2.875rem;
+      font-weight: 700;
+      line-height: 3.125rem;
+      letter-spacing: .075rem; }
+    .sectionSolOne p {
+      font-size: 1rem;
+      font-weight: 400;
       line-height: 1.5625rem;
       letter-spacing: .05rem; }
+    .sectionSolOne button {
+      padding: .375rem 1.25rem;
+      margin-top: 1.25rem;
+      margin-bottom: 6.25rem;
+      border: none;
+      border-radius: 3.75rem; }
+      .sectionSolOne button a {
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.5625rem;
+        letter-spacing: .05rem; }
   .sectionSolTwo h2, .sectionSolTwo .sectionTwo span, .sectionTwo .sectionSolTwo span {
     display: flex;
     flex-direction: none;
@@ -1120,8 +1133,8 @@ header {
   .sectionGuideThree {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     padding-left: 0rem; }
     .sectionGuideThree h2, .sectionGuideThree .sectionTwo span, .sectionTwo .sectionGuideThree span {
       text-align: center;
@@ -1139,6 +1152,8 @@ header {
         font-size: 2rem; }
     .sectionGuideThree img {
       display: flex;
+      flex-direction: none;
+      justify-content: none;
       align-items: center;
       margin-top: 0rem;
       margin-right: 0rem;
@@ -1147,35 +1162,37 @@ header {
       border-radius: .9375rem; } }
 
 @media (max-width: 425px) {
-  .sectionGuideOne h1, .sectionGuideOne .sectionOne span, .sectionOne .sectionGuideOne span {
-    width: 23.75rem;
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 2.25rem;
-    letter-spacing: .075rem; }
-  .sectionGuideOne span {
-    width: 23.75rem;
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 2.25rem;
-    letter-spacing: .075rem; }
-  .sectionGuideOne p {
-    width: 17.5rem;
-    margin-top: 1.875rem;
-    margin-bottom: 2.5rem;
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.5625rem;
-    letter-spacing: .05rem; }
+  .sectionGuideOne {
+    height: 100vh; }
+    .sectionGuideOne h1, .sectionGuideOne .sectionOne span, .sectionOne .sectionGuideOne span {
+      width: 23.75rem;
+      margin-top: 5rem;
+      font-size: 2.875rem;
+      font-weight: 700;
+      line-height: 3.125rem;
+      letter-spacing: .075rem; }
+    .sectionGuideOne span {
+      width: 23.75rem;
+      margin-top: 2.5rem;
+      font-size: 2.875rem;
+      font-weight: 700;
+      line-height: 3.125rem;
+      letter-spacing: .075rem; }
+    .sectionGuideOne p {
+      width: 17.5rem;
+      margin-top: 1.875rem;
+      margin-bottom: 2.5rem;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.5625rem;
+      letter-spacing: .05rem; }
   .sectionGuideTwo .card {
     margin-bottom: 7.5rem; }
   .sectionGuideThree {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     padding-left: 0rem; }
     .sectionGuideThree h2, .sectionGuideThree .sectionTwo span, .sectionTwo .sectionGuideThree span {
       text-align: center;
@@ -1195,6 +1212,8 @@ header {
         font-size: 1rem; }
     .sectionGuideThree img {
       display: flex;
+      flex-direction: none;
+      justify-content: none;
       align-items: center;
       margin-top: 0rem;
       margin-right: 0rem;
@@ -1236,6 +1255,9 @@ header {
   padding-left: 7.5rem;
   padding-right: 7.5rem;
   background-color: #364037; }
+  .sectionAboutTwo img {
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
   .sectionAboutTwo .aboutPlantLife {
     margin-bottom: 7.5rem; }
     .sectionAboutTwo .aboutPlantLife h2, .sectionAboutTwo .aboutPlantLife .sectionTwo span, .sectionTwo .sectionAboutTwo .aboutPlantLife span {
@@ -1243,7 +1265,7 @@ header {
       font-family: "Lato", sans-serif;
       font-size: 3.75rem;
       font-weight: 700;
-      line-height: 2.1875rem;
+      line-height: 3.75rem;
       letter-spacing: .1875rem; }
     .sectionAboutTwo .aboutPlantLife p {
       padding-top: 3.75rem;
@@ -1289,7 +1311,65 @@ header {
   .sectionAboutTwo .plantAbout {
     width: 26.875rem; }
 
-@media (max-width: 768px) {
+@media (max-width: 1202px) {
+  .sectionAboutTwo {
+    display: grid;
+    grid-template-columns: repeat(2 50%);
+    grid-template-rows: repeat(2 50%);
+    grid-template-areas: "aboutPlantLife aboutPlantLifeImage" "aboutImages aboutUs";
+    padding-top: 9.375rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #364037; }
+    .sectionAboutTwo img {
+      border-radius: 15px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
+    .sectionAboutTwo .aboutPlantLife {
+      margin-bottom: 7.5rem; }
+      .sectionAboutTwo .aboutPlantLife h2, .sectionAboutTwo .aboutPlantLife .sectionTwo span, .sectionTwo .sectionAboutTwo .aboutPlantLife span {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 3.75rem;
+        letter-spacing: .1875rem; }
+      .sectionAboutTwo .aboutPlantLife p {
+        padding-top: 2.5rem;
+        padding-right: .3125rem;
+        width: 23.75rem;
+        font-size: 1.125rem;
+        font-weight: 700;
+        line-height: 2.1875rem;
+        letter-spacing: .0625rem;
+        text-indent: 0; }
+    .sectionAboutTwo .aboutPlantLifeImage img {
+      margin-bottom: 3.125rem;
+      height: 17.5rem; }
+    .sectionAboutTwo .aboutUs h2, .sectionAboutTwo .aboutUs .sectionTwo span, .sectionTwo .sectionAboutTwo .aboutUs span {
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 3.75rem;
+      letter-spacing: .1875rem;
+      text-indent: 0; }
+    .sectionAboutTwo .aboutUs p {
+      text-align: right;
+      padding-top: 3.75rem;
+      width: 27rem;
+      font-size: 1.125rem;
+      font-weight: 700;
+      line-height: 2.1875rem;
+      letter-spacing: .0625rem;
+      text-indent: 0;
+      margin-bottom: 7.5rem; }
+    .sectionAboutTwo .sectionAboutTwo img {
+      border-radius: 15px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
+    .sectionAboutTwo .lilyImage {
+      width: 17.5rem;
+      margin-bottom: 3.125rem; }
+    .sectionAboutTwo .plantAbout {
+      width: 17.5rem; } }
+
+@media (max-width: 874px) {
   .sectionAboutOne {
     height: 31.25rem;
     background-size: cover;
@@ -1316,6 +1396,9 @@ header {
     grid-template-areas: "aboutPlantLife"  "aboutPlantLifeImage" "aboutUs" "aboutImages";
     padding-top: 5rem;
     justify-content: center; }
+    .sectionAboutTwo img {
+      border-radius: 15px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
     .sectionAboutTwo .aboutPlantLife {
       grid-area: aboutPlantLife; }
       .sectionAboutTwo .aboutPlantLife h2, .sectionAboutTwo .aboutPlantLife .sectionTwo span, .sectionTwo .sectionAboutTwo .aboutPlantLife span {
@@ -1334,7 +1417,9 @@ header {
         letter-spacing: .0625rem; }
     .sectionAboutTwo .aboutPlantLifeImage {
       display: flex;
+      flex-direction: none;
       justify-content: center;
+      align-items: none;
       grid-area: aboutPlantLifeImage;
       margin-bottom: 3.125rem;
       margin-top: 1.25rem; }
@@ -1342,7 +1427,8 @@ header {
       grid-area: aboutUs;
       display: flex;
       flex-direction: column;
-      justify-content: center; }
+      justify-content: center;
+      align-items: none; }
       .sectionAboutTwo .aboutUs h2, .sectionAboutTwo .aboutUs .sectionTwo span, .sectionTwo .sectionAboutTwo .aboutUs span {
         text-align: center;
         font-size: 3.75rem;
@@ -1363,9 +1449,9 @@ header {
     .sectionAboutTwo .aboutImages {
       display: flex;
       flex-direction: row;
+      justify-content: space-evenly;
       align-items: center;
       grid-area: aboutImages;
-      justify-content: space-evenly;
       margin-bottom: 5rem; }
     .sectionAboutTwo .sectionAboutTwo img {
       border-radius: 15px;
@@ -1377,24 +1463,24 @@ header {
       width: 18.4375rem;
       margin-bottom: 3.125rem; } }
 
-@media (max-width: 425px) {
+@media (max-width: 645px) {
   .sectionAboutOne {
-    height: 17.4375rem;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px 0px; }
     .sectionAboutOne h1, .sectionAboutOne .sectionOne span, .sectionOne .sectionAboutOne span {
       padding-right: 1.25rem;
-      font-size: 1.5rem;
+      font-size: 2.875rem;
       font-style: normal;
       font-weight: 700;
-      line-height: 1.75rem;
+      line-height: 3.125rem;
       letter-spacing: .075rem; }
     .sectionAboutOne span {
-      font-size: 1.5rem;
+      font-size: 2.875rem;
       font-style: normal;
       font-weight: 700;
-      line-height: 1.75rem;
+      line-height: 3.125rem;
       letter-spacing: .075rem; }
   .sectionAboutTwo {
     width: 100%;
@@ -1411,8 +1497,8 @@ header {
     .sectionAboutTwo .aboutPlantLife {
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
+      align-items: center;
       grid-area: aboutPlantLife;
       margin-bottom: 0rem; }
       .sectionAboutTwo .aboutPlantLife h2, .sectionAboutTwo .aboutPlantLife .sectionTwo span, .sectionTwo .sectionAboutTwo .aboutPlantLife span {
@@ -1434,7 +1520,9 @@ header {
         margin-bottom: 1.5625rem; }
     .sectionAboutTwo .aboutPlantLifeImage {
       display: flex;
+      flex-direction: none;
       justify-content: center;
+      align-items: none;
       grid-area: aboutPlantLifeImage;
       margin-bottom: 1.25rem;
       margin-top: 1.25rem; }
@@ -1444,6 +1532,7 @@ header {
     .sectionAboutTwo .aboutUs {
       grid-area: aboutUs;
       display: flex;
+      flex-direction: none;
       justify-content: center;
       align-items: center; }
       .sectionAboutTwo .aboutUs h2, .sectionAboutTwo .aboutUs .sectionTwo span, .sectionTwo .sectionAboutTwo .aboutUs span {
@@ -1465,9 +1554,9 @@ header {
     .sectionAboutTwo .aboutImages {
       display: flex;
       flex-direction: column;
+      justify-content: space-evenly;
       align-items: center;
-      grid-area: aboutImages;
-      justify-content: space-evenly; }
+      grid-area: aboutImages; }
     .sectionAboutTwo .lilyImage {
       margin-bottom: 1.875rem;
       width: 11.625rem; }
@@ -1479,7 +1568,9 @@ header {
   background: #FFFEFB; }
   .sectionCommOne .welcomComm {
     display: flex;
+    flex-direction: none;
     justify-content: space-between;
+    align-items: none;
     padding-right: 11.25rem;
     padding-left: 13.5rem;
     align-items: center;
@@ -1505,8 +1596,9 @@ header {
       width: 32.0625rem; }
   .sectionCommOne .searchComm .search-bar {
     display: flex;
+    flex-direction: none;
     justify-content: center;
-    text-align: center; }
+    align-items: center; }
     .sectionCommOne .searchComm .search-bar form {
       position: relative; }
     .sectionCommOne .searchComm .search-bar img {
@@ -1546,7 +1638,9 @@ header {
     width: 21.875rem; }
   .sectionCommTwo .blog-card-content {
     display: flex;
-    align-items: center;
+    flex-direction: none;
+    justify-content: center;
+    align-items: none;
     color: #364037;
     font-family: "Lato", sans-serif;
     font-size: 1.25rem;
@@ -1583,8 +1677,8 @@ header {
     .sectionCommThree .webinar .webinar-card {
       display: flex;
       flex-direction: row;
-      align-items: center;
       justify-content: space-between;
+      align-items: center;
       padding-right: 3.75rem;
       height: 8.75rem;
       margin-left: 7.5rem;
@@ -1619,6 +1713,7 @@ header {
 .sectionCommFour {
   display: flex;
   flex-direction: column;
+  justify-content: none;
   align-items: center;
   background: #FFFEFB; }
   .sectionCommFour h2, .sectionCommFour .sectionTwo span, .sectionTwo .sectionCommFour span {
@@ -1682,7 +1777,9 @@ header {
     margin-top: 1.25rem; }
     .sectionCommOne .welcomComm {
       display: flex;
+      flex-direction: none;
       justify-content: space-between;
+      align-items: none;
       padding-right: 3.125rem;
       padding-left: 3.125rem;
       align-items: center;
@@ -1748,9 +1845,9 @@ header {
       .sectionCommThree .webinar .webinar-card {
         display: flex;
         flex-direction: row;
-        padding-right: 1.75rem;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
+        padding-right: 1.75rem;
         height: 6.25rem;
         margin-left: 3.125rem;
         margin-right: 3.125rem;
@@ -1827,26 +1924,25 @@ header {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: none;
       padding-right: 1.625rem;
       padding-left: 1.625rem;
       margin-bottom: 1.875rem; }
-    .sectionCommOne h1, .sectionCommOne .sectionOne span, .sectionOne .sectionCommOne span {
-      margin-top: 1.875rem;
-      margin-bottom: .125rem;
-      font-size: 1.75rem;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 32px;
-      letter-spacing: .0875rem; }
-    .sectionCommOne span {
-      font-size: 1.75rem;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 2rem;
-      letter-spacing: .0875rem; }
-    .sectionCommOne img {
-      height: 100%;
-      width: 16.875rem; }
+      .sectionCommOne .welcomComm h1, .sectionCommOne .welcomComm .sectionOne span, .sectionOne .sectionCommOne .welcomComm span {
+        margin-top: 1.875rem;
+        margin-bottom: .125rem;
+        font-size: 2.875rem;
+        font-weight: 700;
+        line-height: 3.125rem;
+        letter-spacing: .0875rem; }
+      .sectionCommOne .welcomComm span {
+        font-size: 2.875rem;
+        font-weight: 700;
+        line-height: 3.125rem;
+        letter-spacing: .0875rem; }
+      .sectionCommOne .welcomComm img {
+        height: 100%;
+        width: 16.875rem; }
     .sectionCommOne .searchComm .search-bar input {
       font-weight: 400;
       font-size: 1rem;
@@ -1882,7 +1978,9 @@ header {
         display: flex;
         justify-content: center; }
         .sectionCommTwo .blog-card .blog-card-content img {
-          width: 3.4375rem; }
+          padding-right: .0625rem;
+          width: 3.125rem;
+          height: 3.125rem; }
         .sectionCommTwo .blog-card .blog-card-content p {
           font-size: .875rem;
           font-style: normal;
@@ -2022,9 +2120,72 @@ header {
   .form .footerSignUp {
     background-color: #364037; }
 
-.footersignUp {
-  height: 6.25rem;
-  background-color: #364037; }
+@media (max-width: 768px) {
+  .signup {
+    display: flex;
+    flex-direction: none;
+    justify-content: center;
+    align-items: none;
+    height: 8.75rem; }
+    .signup img {
+      width: 17.8125rem;
+      padding-top: 2.5rem; }
+  .form {
+    padding-top: 3.125rem;
+    height: 46.875rem; }
+    .form h1, .form .sectionOne span, .sectionOne .form span {
+      font-weight: 500;
+      font-size: 3.75rem;
+      color: #FFFEFB;
+      margin-bottom: 3.75rem; }
+    .form p {
+      font-weight: lighter;
+      color: #FFFEFB; }
+    .form input {
+      margin-bottom: 1.25rem;
+      text-indent: .625rem;
+      width: 25rem;
+      height: 2.5rem;
+      border-radius: .625rem; }
+    .form .submitSignUp {
+      margin-top: 1.25rem;
+      margin-bottom: .625rem; } }
+
+@media (max-width: 425px) {
+  .signup {
+    display: flex;
+    flex-direction: none;
+    justify-content: center;
+    align-items: none;
+    padding-right: 0;
+    height: 8.75rem; }
+    .signup img {
+      width: 12.5rem;
+      padding-top: 2.5rem; }
+  .form {
+    padding-top: 3.125rem;
+    height: 46.875rem; }
+    .form h1, .form .sectionOne span, .sectionOne .form span {
+      font-weight: 500;
+      font-size: 2.875rem;
+      color: #FFFEFB;
+      margin-bottom: 3.75rem; }
+    .form p {
+      font-weight: lighter;
+      font-size: .875rem;
+      line-height: 1.5rem;
+      color: #FFFEFB; }
+    .form input {
+      padding-left: .625rem;
+      padding-right: .9375rem;
+      margin-bottom: 1.25rem;
+      text-indent: .625rem;
+      width: 16.9375rem;
+      height: 1.75rem;
+      border-radius: .625rem; }
+    .form .submitSignUp {
+      margin-top: 1.25rem;
+      margin-bottom: .625rem; } }
 
 footer {
   background-color: #FFFEFB;
@@ -2032,7 +2193,9 @@ footer {
   padding-left: 7.5rem; }
   footer .pagesFooter {
     display: flex;
-    justify-content: center; }
+    flex-direction: none;
+    justify-content: center;
+    align-items: none; }
   footer .solutions-footer, footer .guides-footer {
     list-style: none;
     line-height: 1.25rem;
@@ -2059,7 +2222,9 @@ footer {
     color: #364037; }
   footer .social-media {
     display: flex;
+    flex-direction: none;
     justify-content: flex-end;
+    align-items: none;
     margin-right: 7.5rem;
     padding-bottom: 3.125rem; }
     footer .social-media img {

@@ -3,8 +3,7 @@ footer{
     padding-top: 3.4375rem;
     padding-left: 7.5rem;
     .pagesFooter{
-        display: flex;
-        justify-content: center;
+        @include flex(none, center, none);
     }
     .solutions-footer{
         list-style: none;
@@ -40,8 +39,7 @@ footer{
         color:$dark-green;
     }
     .social-media{
-        display: flex;
-        justify-content: flex-end;
+        @include flex(none, flex-end, none);
         margin-right: 7.5rem;
         padding-bottom: 3.125rem;
         img{

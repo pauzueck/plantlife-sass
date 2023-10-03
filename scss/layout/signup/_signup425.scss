@@ -1,0 +1,40 @@
+@media(max-width: 425px){
+.signup{
+    @include flex(none, center, none);
+    padding-right: 0;
+    height: 8.75rem;
+    img{
+        width: 12.5rem;
+        padding-top: 2.5rem;
+    }
+}
+    .form{
+        padding-top: 3.125rem;
+        height: 46.875rem;
+        h1{
+            font-weight: 500;
+            font-size: 2.875rem;
+            color: $almost-white;
+            margin-bottom: 3.75rem;
+        }
+        p{
+            font-weight: lighter;
+            font-size: .875rem;
+            line-height: 1.5rem;
+            color: $almost-white;
+        }
+        input{
+            padding-left: .625rem;
+            padding-right: .9375rem;
+            margin-bottom: 1.25rem;
+            text-indent: .625rem;
+            width: 16.9375rem;
+            height: 1.75rem;
+            border-radius: .625rem;
+        }
+        .submitSignUp{
+            margin-top: 1.25rem;
+            margin-bottom: .625rem;
+        }
+    }
+}   

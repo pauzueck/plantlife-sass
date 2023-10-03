@@ -1,28 +1,4 @@
-.sectionAboutOne{
-    height: 39.375rem;
-    background-image: url("../assets/img/backgoundaboutus.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    h1{
-        padding-top: 6.25rem;
-        padding-right: 7.5rem;
-        margin-bottom: 1.4375rem;
-        font-family: $Lato;
-        @include font(3.75rem, 700, 5.625rem, .1875rem);
-        color: $dark-green;
-        text-align: right;
-        text-indent: 0;
-    }
-    span{
-        font-family: $Lato;
-        font-weight: 700;
-        letter-spacing: .1875rem;
-        font-size: 3.75rem;
-        color: $light-green;
-    }
-}
-
+@media(max-width: 1202px){
 .sectionAboutTwo{
     display: grid;
     grid-template-columns: repeat(2 50%);
@@ -32,8 +8,8 @@
     "aboutImages aboutUs"
     ;
     padding-top: 9.375rem;
-    padding-left: 7.5rem;
-    padding-right: 7.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     background-color: $dark-green;
     img{
         border-radius: 15px;
@@ -42,20 +18,16 @@
     .aboutPlantLife{
         margin-bottom: 7.5rem;
         h2{
-            color: #EFEAD8;
-            font-family: $Lato;
-            font-size: 3.75rem;
+            font-size: 3rem;
             font-weight: 700;
             line-height: 3.75rem;
             letter-spacing: .1875rem;
         }
         p{
-            padding-top: 3.75rem;
-            width: 28.75rem;
-            color: #EFEAD8;
-            font-family:$Merri;
-            font-size: 1.25rem;
-            font-style: normal;
+            padding-top: 2.5rem;
+            padding-right: .3125rem;
+            width: 23.75rem;
+            font-size: 1.125rem;
             font-weight: 700;
             line-height: 2.1875rem;
             letter-spacing: .0625rem;
@@ -64,26 +36,22 @@
     }
     .aboutPlantLifeImage img{
         margin-bottom: 3.125rem;
-        height: 25.125rem;
+        height: 17.5rem;
     }
     .aboutUs{
         h2{
             text-align: center;
-            color: #EFEAD8;
-            font-family: $Lato;
-            font-size: 3.75rem;
+            font-size: 3rem;
             font-weight: 700;
+            line-height: 3.75rem;
             letter-spacing: .1875rem;
             text-indent: 0;
         }
         p{
             text-align: right;
             padding-top: 3.75rem;
-            width: 37.8125rem;
-            color: #EFEAD8;
-            font-family: $Merri;
-            font-size: 1.25rem;
-            font-style: normal;
+            width: 27rem;
+            font-size: 1.125rem;
             font-weight: 700;
             line-height: 2.1875rem;
             letter-spacing: .0625rem;
@@ -96,10 +64,11 @@
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
     .lilyImage{
-        width: 26.875rem;
+        width: 17.5rem;
         margin-bottom: 3.125rem;
     }
     .plantAbout{
-        width: 26.875rem;
+        width: 17.5rem;
     }
+}
 }

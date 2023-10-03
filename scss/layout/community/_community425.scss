@@ -2,32 +2,28 @@
     .sectionCommOne{
         margin-top: 1.25rem;
         .welcomComm{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            @include flex(column, center, none);
             padding-right: 1.625rem;
             padding-left: 1.625rem;
             margin-bottom: 1.875rem;
-        }
-        h1{
-            margin-top: 1.875rem;
-            margin-bottom: .125rem;
-            font-size: 1.75rem;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 32px; 
-            letter-spacing: .0875rem;
-        }
-        span{
-            font-size: 1.75rem;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 2rem; 
-            letter-spacing: .0875rem;
-        }
-        img{
-            height: 100%;
-            width: 16.875rem;
+            h1{
+                margin-top: 1.875rem;
+                margin-bottom: .125rem;
+                font-size: 2.875rem;
+                font-weight: 700;
+                line-height: 3.125rem; 
+                letter-spacing: .0875rem;
+            }
+            span{
+                font-size: 2.875rem;
+                font-weight: 700;
+                line-height: 3.125rem; 
+                letter-spacing: .0875rem;
+            }
+            img{
+                height: 100%;
+                width: 16.875rem;
+            }
         }
         .searchComm{
             .search-bar{
@@ -79,7 +75,9 @@
                 display: flex;
                 justify-content: center;
                 img{
-                    width: 3.4375rem;
+                    padding-right: .0625rem;
+                    width: 3.125rem;
+                    height: 3.125rem;
                 }
                 p{
                     font-size: .875rem;

@@ -13,12 +13,14 @@ header{
         color: $dark-green;
     }
     .navbar-toggler{
+        background-color: #FFFEFB;
         border: none;
         &:focus{
         all: unset;
         }
     }
     .navbar-toggler-icon {
+        width: 1.5625rem;
         background-image: var(--bs-navbar-toggler-icon-bg);
     }
     .navbar li a{
