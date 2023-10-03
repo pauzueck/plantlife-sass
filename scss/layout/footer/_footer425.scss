@@ -14,9 +14,9 @@
             list-style: none;
             line-height: 1.5625rem;
             flex-wrap: wrap;
-            margin-right: .625rem;
+            margin-right: 1.25rem;
             margin-bottom: 1.25rem;
-            padding-left: 0rem;
+            padding-left: -10rem;
         }
         .community-footer{
             list-style: none;
@@ -26,7 +26,7 @@
         }
         a{
             text-decoration: none;
-            font-size: 1rem;
+            font-size: 1.125rem;
             .logo-footer{
                 width: 6.25rem;
                 margin-bottom: 1.25rem;
@@ -34,7 +34,8 @@
         }
         p{
             text-decoration: none;
-            font-size: .875rem;
+            line-height: .3125rem;
+            font-size: .75rem;
             color:#364037
         }
         .social-media{

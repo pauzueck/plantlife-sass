@@ -38,8 +38,7 @@
     }
     .sectionSolTwo{
         h2{
-            display: flex;
-            text-align: center;
+            @include flex(none, none, center);
             padding-top: 5rem;
             font-size: 1.5rem;
             font-weight: 700;
@@ -64,11 +63,10 @@
         }
     }
     .sectionSolThree{
+        @include flex(column, center, none);
         height: 100%;
         padding-top: 2.5rem;
         padding-bottom: 2.5rem;
-        display: flex;
-        flex-direction: column;
         .cardSolNumber{
             position: absolute;
             left: -100px;
@@ -104,9 +102,7 @@
             padding-top: 3.125rem;
         }
         .cardSolContent{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            @include flex(column, center, none);
             width: 68.625rem;
             height: 100%;
             border-radius: .625rem;
@@ -130,11 +126,10 @@
         }
     }
     .sectionSolThree{
+        @include flex(column, none, none);
         height: 100%;
         padding-top: 3.125rem;
         padding-bottom: 3.125rem;
-        display: flex;
-        flex-direction: column;
         padding-top: 5rem;
         .cardSolNumber{
             position: absolute;
@@ -172,16 +167,13 @@
             padding-top: 3.125rem;
         }
         .cardSolContent{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            @include flex(column, center, none);
             width: 68.625rem;
             height: 100%;
             border-radius: .625rem;
             background-color: #6D8B74;
             h3{
-                display: flex;
-                justify-content: center;
+                @include flex(none, center, none);
                 padding-left: .9375rem;
                 padding-right: .9375rem;
                 padding-bottom: .3125rem;
@@ -192,8 +184,7 @@
                 letter-spacing: .1rem;
             }
             p{
-                display: flex;
-                justify-content: center;
+                @include flex(none, center, none);
                 padding-left: .9375rem;
                 padding-right: .9375rem;
                 padding-bottom: 1.875rem;

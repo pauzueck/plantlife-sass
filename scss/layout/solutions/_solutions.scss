@@ -5,21 +5,19 @@
     h1{
         padding-top: 8.125rem;
         margin-bottom: 1.4375rem;
-        font-family: 'Lato', sans-serif;
-        font-weight: 700;
-        letter-spacing: .1875rem;
-        font-size: 3.75rem;
+        font-family: $Lato;
+        @include font(3.75rem, 700, 5.625rem, .1875rem);
         color: $dark-green;
     }
     span{
-        font-family: 'Lato', sans-serif;
+        font-family: $Lato;
         font-weight: 700;
         letter-spacing: .1875rem;
         font-size: 3.75rem;
         color: $light-green;
     }
     p{
-        font-family: 'Merriweather', serif;
+        font-family: $Merri;
         font-weight: 300;
         font-size: 1.25rem;
         color: $dark-green;
@@ -33,14 +31,14 @@
         border-radius: 3.75rem;
         box-shadow: 0rem .25rem .25rem 0rem rgba(0, 0, 0, 0.25);
         &:hover{
-            color: $dark-green;
+            background-color: $dark-green;
         }
         a{
             text-decoration: none;
             font-weight: 500;
             letter-spacing: .125rem;
             color: $almost-white;
-            font-family: 'Lato', sans-serif;
+            font-family: $Lato;
             font-size: 2rem;
         }
     }
@@ -55,7 +53,7 @@
         padding-top: 6.5625rem;
         padding-left: 7.8125rem;
         color: $dark-green;
-        font-family: 'Lato', sans-serif;
+        font-family: $Lato;
         font-size: 3.75rem;
         font-weight: 700;
         line-height: 1.5625rem;
@@ -65,7 +63,7 @@
         width: 32.75rem;
         padding-top: 3.125rem;
         color: $dark-green;
-        font-family: 'Merriweather', serif;
+        font-family: $Merri;
         font-size: 1.25rem;
         font-weight: 700;
         line-height: 1.875rem;
@@ -92,7 +90,7 @@
         background-color: $dark-green;
         border-radius: 6.5938rem;
         color: $almost-white;
-        font-family: 'Lato', sans-serif;
+        font-family: $Lato;
         font-size: 6rem;
         font-weight: 700;
         line-height: 1.5625rem;
@@ -135,7 +133,7 @@
         h3{
             padding-bottom: .3125rem;
             color: $almost-white;
-            font-family: 'Lato', sans-serif;
+            font-family: $Lato;
             padding-left: 9.375rem;
             font-size: 2rem;
             font-weight: 700;
@@ -146,7 +144,7 @@
             padding-left: 9.375rem;
             padding-right: .9375rem;
             color: $almost-white;
-            font-family: 'Lato', sans-serif;
+            font-family: $Lato;
             font-size: 1.25rem;
             font-weight: 700;
             line-height: 1.5625rem;

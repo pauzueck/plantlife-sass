@@ -1,7 +1,6 @@
 header{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    @include flex(none, flex-end, center);
+    padding-right: 3.125rem;
     background-color: $dark-green;
     width: 100%;
     .navbar-brand img{

@@ -37,9 +37,7 @@
     }
     .sectionSolTwo{
         h2{
-            display: flex;
-            flex-direction: center;
-            text-align: center;
+            @include flex(none, none, center);
             padding-top: 5rem;
             color: #4B594D;
             font-family: 'Lato', sans-serif;
@@ -66,11 +64,10 @@
         }
     }
     .sectionSolThree{
+        @include flex(column, none, none);
         height: 100%;
         padding-top: 2.5rem;
         padding-bottom: 2.5rem;
-        display: flex;
-        flex-direction: column;
         .cardSolNumber{
             position: absolute;
             left: -100px;
@@ -106,9 +103,7 @@
             padding-top: 3.125rem;
         }
         .cardSolContent{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            @include flex(column, center, none);
             width: 68.625rem;
             height: 100%;
             border-radius: .625rem;

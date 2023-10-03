@@ -1,0 +1,39 @@
+@media(max-width: 1024px){
+    footer{
+        padding-top: 6.25rem;
+        padding-left: 3.75rem;
+        .solutions-footer{
+            line-height: 1.875rem;
+            margin-right: 1.25rem;
+        }
+        .guides-footer{
+            line-height: 1.875rem;
+            margin-right: .625rem;
+        }
+        .community-footer{
+            line-height: 1.875rem;
+    }
+        a{
+            text-decoration: none;
+            font-size: 1.25rem;
+            .logo-footer{
+                width: 12.5rem;
+            }
+        }
+        p{
+            text-decoration: none;
+            font-size: 1rem;
+            color:#364037
+        }
+        .social-media{
+            margin-right: 3.125rem;
+            padding-bottom: 3.125rem;
+            img{
+                width: 2rem;
+            }
+            .ig{
+                margin-right: .9375rem;
+            }
+        }
+    }
+}

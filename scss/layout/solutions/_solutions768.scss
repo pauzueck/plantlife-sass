@@ -1,10 +1,9 @@
 @media(max-width: 768px){
     .sectionSolThree{
+        @include flex(column, none, none);
         height: 100%;
         padding-top: 3.125rem;
         padding-bottom: 3.125rem;
-        display: flex;
-        flex-direction: column;
         padding-top: 5rem;
         .cardSolNumber{
             position: absolute;
@@ -42,16 +41,13 @@
             padding-top: 3.125rem;
         }
         .cardSolContent{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            @include flex(column, center, none);
             width: 68.625rem;
             height: 100%;
             border-radius: .625rem;
             background-color: #6D8B74;
             h3{
-                display: flex;
-                justify-content: center;
+                @include flex(none, center, none);
                 padding-left: .9375rem;
                 padding-right: .9375rem;
                 padding-bottom: .3125rem;
@@ -63,8 +59,7 @@
                 text-align: center;
             }
             p{
-                display: flex;
-                justify-content: center;
+                @include flex(none, center, none);
                 padding-left: .9375rem;
                 padding-right: .9375rem;
                 padding-bottom: 2.5rem;

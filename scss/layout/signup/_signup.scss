@@ -1,7 +1,6 @@
 .signup{
     background-color: $dark-green;
-    display: flex;
-    justify-content: center;
+    @include flex(none, center, none);
     height: 8.75rem;
     text-align: center;
     img{
@@ -14,10 +13,10 @@
         height: 46.875rem;
         background-color: $dark-green;
         text-align: center;
-        font-family: 'Lato', sans-serif;
+        font-family: $Lato;
         border-color: $dark-green;
         h1{
-            font-family: 'Lato', sans-serif;
+            font-family: $Lato;
             font-weight: bold;
             font-weight: 500;
             font-size: 3.75rem;
@@ -25,7 +24,7 @@
             margin-bottom: 3.75rem;
         }
         p{
-            font-family: 'Merriweather', serif;
+            font-family: $Merri;
             font-weight: lighter;
             color: $almost-white;
         }

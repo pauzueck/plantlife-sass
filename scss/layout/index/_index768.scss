@@ -1,7 +1,8 @@
 @media(max-width: 768px){
 .sectionOne{
+    @include flex(none, center, none);
     p{
-        width: 5rem;
+        width: 34.375rem;
         font-size: 1rem;
         font-style: normal;
         font-weight: 700;
@@ -10,22 +11,17 @@
     }
     h1{
         margin-bottom: 2.875rem;
-        font-family: 'Lato', sans-serif;
         font-weight: 700;
         letter-spacing: .1875rem;
         font-size: 3.75rem;
-        color: #4B594D;
     }
     span{
         margin-bottom: 2.875rem;
-        font-family: 'Lato', sans-serif;
         font-weight: 700;
         letter-spacing: .1875rem;
         font-size: 3.75rem;
-        color: #6D8B74;
     }
     button{
-        background-color: #6D8B74;
         padding: .75rem 2.1875rem;
         margin: 4rem;
         border: none;
@@ -38,8 +34,6 @@
             text-decoration: none;
             font-weight: 500;
             letter-spacing: .125rem;
-            color: #FFFEFB;
-            font-family: 'Lato', sans-serif;
             font-size: 2rem;
         }
     }
@@ -54,7 +48,6 @@
         margin-top: 4.375rem;
         margin-bottom: 1.875rem;
         font-size: 1.5rem;
-        font-style: normal;
         font-weight: 700;
         line-height: 2.5rem;
         letter-spacing: .075rem;
@@ -63,7 +56,6 @@
         margin-top: 4.375rem;
         margin-bottom: 1.875rem;
         font-size: 1.5rem;
-        font-style: normal;
         font-weight: 700;
         line-height: 2.5rem;
         letter-spacing: .075rem;

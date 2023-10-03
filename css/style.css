@@ -9,8 +9,10 @@
 /* Layout */
 header {
   display: flex;
-  align-items: center;
+  flex-direction: none;
   justify-content: flex-end;
+  align-items: center;
+  padding-right: 3.125rem;
   background-color: #364037;
   width: 100%; }
   header .navbar-brand img {
@@ -32,9 +34,9 @@ header {
     font-family: 'Lato', sans-serif;
     color: #FFFEFB; }
     header .navbar li a:hover {
-      color: #6D8B74; }
+      color: #627A67; }
   header .dropdown-menu {
-    background-color: #6D8B74;
+    background-color: #627A67;
     width: 6.25rem; }
 
 .sectionOne {
@@ -47,35 +49,47 @@ header {
   padding: 6.25rem; }
   .sectionOne h1, .sectionOne span {
     margin-bottom: 2.875rem;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 5.625rem;
+    letter-spacing: 0.1875rem;
     font-weight: 700;
     letter-spacing: .1875rem;
     font-size: 3.75rem;
     color: #364037; }
   .sectionOne span {
-    color: #6D8B74; }
+    color: #627A67; }
   .sectionOne p {
     width: 37.75rem;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    letter-spacing: 0.125rem;
     font-weight: 300;
     font-size: 1.25rem;
     color: #364037;
     letter-spacing: .125rem; }
   .sectionOne button {
-    background-color: #6D8B74;
+    background-color: #627A67;
     padding: .75rem 2.1875rem;
     margin: 4rem;
     border: none;
     border-radius: 3.75rem;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
     .sectionOne button:hover {
-      color: #364037; }
+      background-color: #364037; }
     .sectionOne button a {
       text-decoration: none;
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: none;
+      letter-spacing: 0.125rem;
       font-weight: 500;
       letter-spacing: .125rem;
       color: #FFFEFB;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-size: 2rem; }
 
 .sectionTwo {
@@ -84,7 +98,9 @@ header {
   padding-top: 5.3125rem; }
   .sectionTwo .imagesSectionTwo {
     display: flex;
+    flex-direction: none;
     justify-content: space-evenly;
+    align-items: none;
     flex-wrap: wrap; }
     .sectionTwo .imagesSectionTwo img {
       width: 357px;
@@ -107,15 +123,15 @@ header {
     margin-top: 4.375rem;
     margin-bottom: 1.875rem;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 32px;
     color: #364037; }
   .sectionTwo span {
-    color: #6D8B74; }
+    color: #627A67; }
   .sectionTwo p {
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
     font-weight: 300;
     font-size: 1.125rem;
     line-height: 1.875rem;
@@ -137,7 +153,7 @@ header {
     justify-content: center;
     align-items: none;
     list-style: none;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 2rem;
     color: #364037; }
@@ -156,7 +172,7 @@ header {
     .sectionThree .descriptionSectionThree p {
       width: 27.125rem;
       text-align: right;
-      font-family: 'Merriweather', serif;
+      font-family: "Merriweather", serif;
       font-weight: 500;
       font-size: 1.125rem;
       letter-spacing: .0625rem;
@@ -184,72 +200,70 @@ header {
     margin-top: 3.125rem;
     margin-bottom: 2.9375rem;
     text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    letter-spacing: .1875rem;
+    font-family: "Lato", sans-serif;
     font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 5.625rem;
+    letter-spacing: 0.1875rem;
     color: #364037; }
   .sectionFour button {
-    background-color: #6D8B74;
+    background-color: #627A67;
     padding: .9375rem 1.875rem;
     border: none;
     border-radius: 3.75rem;
     box-shadow: 0rem .25rem .25rem 0rem #afafaf;
     margin-bottom: 3.125rem; }
     .sectionFour button:hover {
-      color: #364037; }
+      background-color: #364037; }
     .sectionFour button a {
       text-decoration: none;
       color: #FFFEFB;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-size: 2rem; }
 
 @media (max-width: 768px) {
-  .sectionOne p {
-    width: 5rem;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.5625rem;
-    letter-spacing: .05rem; }
-  .sectionOne h1, .sectionOne span {
-    margin-bottom: 2.875rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    letter-spacing: .1875rem;
-    font-size: 3.75rem;
-    color: #4B594D; }
-  .sectionOne span {
-    margin-bottom: 2.875rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    letter-spacing: .1875rem;
-    font-size: 3.75rem;
-    color: #6D8B74; }
-  .sectionOne button {
-    background-color: #6D8B74;
-    padding: .75rem 2.1875rem;
-    margin: 4rem;
-    border: none;
-    border-radius: 3.75rem;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
-    .sectionOne button:hover {
-      color: #4B594D; }
-    .sectionOne button a {
-      text-decoration: none;
-      font-weight: 500;
-      letter-spacing: .125rem;
-      color: #FFFEFB;
-      font-family: 'Lato', sans-serif;
-      font-size: 2rem; }
-  .sectionOne img {
-    width: 7.9375rem;
-    margin-top: 2.5rem; }
+  .sectionOne {
+    display: flex;
+    flex-direction: none;
+    justify-content: center;
+    align-items: none; }
+    .sectionOne p {
+      width: 34.375rem;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.5625rem;
+      letter-spacing: .05rem; }
+    .sectionOne h1, .sectionOne span {
+      margin-bottom: 2.875rem;
+      font-weight: 700;
+      letter-spacing: .1875rem;
+      font-size: 3.75rem; }
+    .sectionOne span {
+      margin-bottom: 2.875rem;
+      font-weight: 700;
+      letter-spacing: .1875rem;
+      font-size: 3.75rem; }
+    .sectionOne button {
+      padding: .75rem 2.1875rem;
+      margin: 4rem;
+      border: none;
+      border-radius: 3.75rem;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
+      .sectionOne button:hover {
+        color: #4B594D; }
+      .sectionOne button a {
+        text-decoration: none;
+        font-weight: 500;
+        letter-spacing: .125rem;
+        font-size: 2rem; }
+    .sectionOne img {
+      width: 7.9375rem;
+      margin-top: 2.5rem; }
   .sectionTwo h2, .sectionTwo span {
     margin-top: 4.375rem;
     margin-bottom: 1.875rem;
     font-size: 1.5rem;
-    font-style: normal;
     font-weight: 700;
     line-height: 2.5rem;
     letter-spacing: .075rem; }
@@ -257,7 +271,6 @@ header {
     margin-top: 4.375rem;
     margin-bottom: 1.875rem;
     font-size: 1.5rem;
-    font-style: normal;
     font-weight: 700;
     line-height: 2.5rem;
     letter-spacing: .075rem; }
@@ -290,13 +303,11 @@ header {
     .sectionOne h1, .sectionOne span {
       margin-bottom: 1.875rem;
       font-size: 1.75rem;
-      font-style: normal;
       font-weight: 700;
       line-height: 2.5rem;
       letter-spacing: .0875rem; }
     .sectionOne span {
       font-size: 1.75rem;
-      font-style: normal;
       font-weight: 700;
       line-height: 2.5rem;
       letter-spacing: .0875rem; }
@@ -304,7 +315,6 @@ header {
       width: 80%;
       margin-left: 2rem;
       font-size: 1rem;
-      font-style: normal;
       font-weight: 700;
       line-height: 1.5625rem;
       letter-spacing: .05rem; }
@@ -405,38 +415,39 @@ header {
   .sectionSolOne h1, .sectionSolOne .sectionOne span, .sectionOne .sectionSolOne span {
     padding-top: 8.125rem;
     margin-bottom: 1.4375rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    letter-spacing: .1875rem;
+    font-family: "Lato", sans-serif;
     font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 5.625rem;
+    letter-spacing: 0.1875rem;
     color: #364037; }
   .sectionSolOne span {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     letter-spacing: .1875rem;
     font-size: 3.75rem;
-    color: #6D8B74; }
+    color: #627A67; }
   .sectionSolOne p {
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
     font-weight: 300;
     font-size: 1.25rem;
     color: #364037;
     letter-spacing: .125rem; }
   .sectionSolOne button {
-    background-color: #6D8B74;
+    background-color: #627A67;
     padding: .75rem 2.1875rem;
     margin: 4rem 4rem 10rem 4rem;
     border: none;
     border-radius: 3.75rem;
     box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25); }
     .sectionSolOne button:hover {
-      color: #364037; }
+      background-color: #364037; }
     .sectionSolOne button a {
       text-decoration: none;
       font-weight: 500;
       letter-spacing: .125rem;
       color: #FFFEFB;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-size: 2rem; }
 
 .sectionSolTwo {
@@ -451,7 +462,7 @@ header {
     padding-top: 6.5625rem;
     padding-left: 7.8125rem;
     color: #364037;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 3.75rem;
     font-weight: 700;
     line-height: 1.5625rem;
@@ -460,7 +471,7 @@ header {
     width: 32.75rem;
     padding-top: 3.125rem;
     color: #364037;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.875rem;
@@ -484,7 +495,7 @@ header {
     background-color: #364037;
     border-radius: 6.5938rem;
     color: #FFFEFB;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 6rem;
     font-weight: 700;
     line-height: 1.5625rem;
@@ -531,11 +542,11 @@ header {
     width: 68.625rem;
     height: 100%;
     border-radius: .625rem;
-    background-color: #6D8B74; }
+    background-color: #627A67; }
     .sectionSolThree .cardSolContent h3 {
       padding-bottom: .3125rem;
       color: #FFFEFB;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       padding-left: 9.375rem;
       font-size: 2rem;
       font-weight: 700;
@@ -545,7 +556,7 @@ header {
       padding-left: 9.375rem;
       padding-right: .9375rem;
       color: #FFFEFB;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-size: 1.25rem;
       font-weight: 700;
       line-height: 1.5625rem;
@@ -591,8 +602,9 @@ header {
       font-size: 2rem; }
   .sectionSolTwo h2, .sectionSolTwo .sectionTwo span, .sectionTwo .sectionSolTwo span {
     display: flex;
-    flex-direction: center;
-    text-align: center;
+    flex-direction: none;
+    justify-content: none;
+    align-items: center;
     padding-top: 5rem;
     color: #4B594D;
     font-family: 'Lato', sans-serif;
@@ -615,11 +627,13 @@ header {
     padding-top: 3.125rem;
     margin-bottom: 6.8125rem; }
   .sectionSolThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
     height: 100%;
     padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    display: flex;
-    flex-direction: column; }
+    padding-bottom: 2.5rem; }
     .sectionSolThree .cardSolNumber {
       position: absolute;
       left: -100px;
@@ -654,6 +668,7 @@ header {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: none;
       width: 68.625rem;
       height: 100%;
       border-radius: .625rem;
@@ -675,11 +690,13 @@ header {
 
 @media (max-width: 768px) {
   .sectionSolThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
     height: 100%;
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
-    display: flex;
-    flex-direction: column;
     padding-top: 5rem; }
     .sectionSolThree .cardSolNumber {
       position: absolute;
@@ -716,13 +733,16 @@ header {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: none;
       width: 68.625rem;
       height: 100%;
       border-radius: .625rem;
       background-color: #6D8B74; }
       .sectionSolThree .cardSolContent h3 {
         display: flex;
+        flex-direction: none;
         justify-content: center;
+        align-items: none;
         padding-left: .9375rem;
         padding-right: .9375rem;
         padding-bottom: .3125rem;
@@ -734,7 +754,9 @@ header {
         text-align: center; }
       .sectionSolThree .cardSolContent p {
         display: flex;
+        flex-direction: none;
         justify-content: center;
+        align-items: none;
         padding-left: .9375rem;
         padding-right: .9375rem;
         padding-bottom: 2.5rem;
@@ -777,7 +799,9 @@ header {
       letter-spacing: .05rem; }
   .sectionSolTwo h2, .sectionSolTwo .sectionTwo span, .sectionTwo .sectionSolTwo span {
     display: flex;
-    text-align: center;
+    flex-direction: none;
+    justify-content: none;
+    align-items: center;
     padding-top: 5rem;
     font-size: 1.5rem;
     font-weight: 700;
@@ -798,11 +822,13 @@ header {
     padding-top: 3.125rem;
     margin-bottom: 6.8125rem; }
   .sectionSolThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: none;
     height: 100%;
     padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    display: flex;
-    flex-direction: column; }
+    padding-bottom: 2.5rem; }
     .sectionSolThree .cardSolNumber {
       position: absolute;
       left: -100px;
@@ -837,6 +863,7 @@ header {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: none;
       width: 68.625rem;
       height: 100%;
       border-radius: .625rem;
@@ -856,11 +883,13 @@ header {
         line-height: 1.5625rem;
         letter-spacing: .0625rem; }
   .sectionSolThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
     height: 100%;
     padding-top: 3.125rem;
     padding-bottom: 3.125rem;
-    display: flex;
-    flex-direction: column;
     padding-top: 5rem; }
     .sectionSolThree .cardSolNumber {
       position: absolute;
@@ -897,13 +926,16 @@ header {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: none;
       width: 68.625rem;
       height: 100%;
       border-radius: .625rem;
       background-color: #6D8B74; }
       .sectionSolThree .cardSolContent h3 {
         display: flex;
+        flex-direction: none;
         justify-content: center;
+        align-items: none;
         padding-left: .9375rem;
         padding-right: .9375rem;
         padding-bottom: .3125rem;
@@ -914,7 +946,9 @@ header {
         letter-spacing: .1rem; }
       .sectionSolThree .cardSolContent p {
         display: flex;
+        flex-direction: none;
         justify-content: center;
+        align-items: none;
         padding-left: .9375rem;
         padding-right: .9375rem;
         padding-bottom: 1.875rem;
@@ -932,23 +966,24 @@ header {
   text-align: center; }
   .sectionGuideOne h1, .sectionGuideOne .sectionOne span, .sectionOne .sectionGuideOne span {
     margin-top: 6.25rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    letter-spacing: .1875rem;
+    font-family: "Lato", sans-serif;
     font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 5.625rem;
+    letter-spacing: 0.1875rem;
     color: #364037; }
   .sectionGuideOne span {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     letter-spacing: .1875rem;
     font-size: 3.75rem;
-    color: #6D8B74; }
+    color: #627A67; }
   .sectionGuideOne p {
     width: 685px;
     margin-top: 3.6875rem;
     margin-bottom: 4.875rem;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
     font-weight: 500;
     font-size: 1.25rem;
     color: #364037;
@@ -977,18 +1012,18 @@ header {
     .sectionGuideTwo .card .card-content {
       height: 8.5rem;
       width: 22.5rem;
-      background-color: #6D8B74;
+      background-color: #627A67;
       border-radius: 0rem 0rem 3.125rem 3.125rem;
       text-align: center;
       box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25); }
       .sectionGuideTwo .card .card-content p {
         padding: .8125rem 3.375rem;
-        font-family: 'Merriweather', serif;
+        font-family: "Merriweather", serif;
         font-weight: 500;
         font-size: .875rem;
         color: #EFEAD8; }
       .sectionGuideTwo .card .card-content h2, .sectionGuideTwo .card .card-content .sectionTwo span, .sectionTwo .sectionGuideTwo .card .card-content span {
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         font-weight: 700;
         font-size: 1.25rem;
         color: #EFEAD8;
@@ -1003,7 +1038,7 @@ header {
   background-color: #364037;
   padding-left: 7.75rem; }
   .sectionGuideThree h2, .sectionGuideThree .sectionTwo span, .sectionTwo .sectionGuideThree span {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     text-transform: capitalize;
     text-align: left;
     font-weight: 500;
@@ -1021,9 +1056,13 @@ header {
     box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25); }
     .sectionGuideThree button a {
       text-decoration: none;
-      color: #6D8B74;
-      font-family: 'Lato', sans-serif;
+      color: #627A67;
+      font-family: "Lato", sans-serif;
       font-size: 2rem; }
+      .sectionGuideThree button a:hover {
+        color: #FFFEFB; }
+    .sectionGuideThree button:hover {
+      background-color: #627A67; }
   .sectionGuideThree img {
     margin-top: 3.8125rem;
     margin-right: 7.5rem;
@@ -1173,20 +1212,20 @@ header {
     padding-top: 6.25rem;
     padding-right: 7.5rem;
     margin-bottom: 1.4375rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    letter-spacing: .1875rem;
-    line-height: 3.125rem;
+    font-family: "Lato", sans-serif;
     font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 5.625rem;
+    letter-spacing: 0.1875rem;
     color: #364037;
     text-align: right;
     text-indent: 0; }
   .sectionAboutOne span {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     letter-spacing: .1875rem;
     font-size: 3.75rem;
-    color: #6D8B74; }
+    color: #627A67; }
 
 .sectionAboutTwo {
   display: grid;
@@ -1201,7 +1240,7 @@ header {
     margin-bottom: 7.5rem; }
     .sectionAboutTwo .aboutPlantLife h2, .sectionAboutTwo .aboutPlantLife .sectionTwo span, .sectionTwo .sectionAboutTwo .aboutPlantLife span {
       color: #EFEAD8;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-size: 3.75rem;
       font-weight: 700;
       line-height: 2.1875rem;
@@ -1210,7 +1249,7 @@ header {
       padding-top: 3.75rem;
       width: 28.75rem;
       color: #EFEAD8;
-      font-family: 'Merriweather', serif;
+      font-family: "Merriweather", serif;
       font-size: 1.25rem;
       font-style: normal;
       font-weight: 700;
@@ -1223,7 +1262,7 @@ header {
   .sectionAboutTwo .aboutUs h2, .sectionAboutTwo .aboutUs .sectionTwo span, .sectionTwo .sectionAboutTwo .aboutUs span {
     text-align: center;
     color: #EFEAD8;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 3.75rem;
     font-weight: 700;
     letter-spacing: .1875rem;
@@ -1233,7 +1272,7 @@ header {
     padding-top: 3.75rem;
     width: 37.8125rem;
     color: #EFEAD8;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
@@ -1447,18 +1486,19 @@ header {
     margin-bottom: 2.5rem; }
     .sectionCommOne .welcomComm h1, .sectionCommOne .welcomComm .sectionOne span, .sectionOne .sectionCommOne .welcomComm span {
       margin-bottom: 2.875rem;
-      font-family: 'Lato', sans-serif;
-      font-weight: 700;
-      letter-spacing: .1875rem;
+      font-family: "Lato", sans-serif;
       font-size: 3.75rem;
+      font-weight: 700;
+      line-height: 5.625rem;
+      letter-spacing: 0.1875rem;
       color: #364037;
       text-align: left; }
     .sectionCommOne .welcomComm span {
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-weight: 700;
       letter-spacing: .1875rem;
       font-size: 3.75rem;
-      color: #6D8B74;
+      color: #627A67;
       text-align: left; }
     .sectionCommOne .welcomComm img {
       height: 100%;
@@ -1478,10 +1518,10 @@ header {
     .sectionCommOne .searchComm .search-bar input {
       padding-left: 1.5rem;
       color: #364037;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       font-weight: 400;
       font-size: 1.5rem;
-      border: 5px solid #6D8B74;
+      border: 5px solid #627A67;
       text-indent: 2rem;
       width: 32rem;
       height: 4.4375rem;
@@ -1508,7 +1548,7 @@ header {
     display: flex;
     align-items: center;
     color: #364037;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.75rem;
@@ -1526,14 +1566,14 @@ header {
     padding-top: 7.25rem;
     color: #364037;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 2rem;
     font-weight: 700;
     line-height: 1.5625rem;
     letter-spacing: .1rem; }
   .sectionCommThree span {
-    color: #6D8B74;
-    font-family: 'Lato', sans-serif;
+    color: #627A67;
+    font-family: "Lato", sans-serif;
     font-size: 2rem;
     font-weight: 700;
     line-height: 1.5625rem;
@@ -1560,7 +1600,7 @@ header {
         border-radius: .5625rem; }
       .sectionCommThree .webinar .webinar-card h3 {
         color: #FFFEFB;
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         font-size: 2rem;
         font-weight: 700;
         line-height: 1.5625rem;
@@ -1568,7 +1608,7 @@ header {
         display: inline; }
       .sectionCommThree .webinar .webinar-card p {
         color: #FFFEFB;
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         font-size: 1.5rem;
         font-style: normal;
         font-weight: 700;
@@ -1584,7 +1624,7 @@ header {
   .sectionCommFour h2, .sectionCommFour .sectionTwo span, .sectionTwo .sectionCommFour span {
     padding-top: 5.625rem;
     color: #364037;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 3.75rem;
     font-weight: 700;
     line-height: 6.25rem;
@@ -1592,46 +1632,50 @@ header {
     text-align: center;
     padding-top: 5.625rem; }
   .sectionCommFour span {
-    color: #6D8B74;
-    font-family: 'Lato', sans-serif;
+    color: #627A67;
+    font-family: "Lato", sans-serif;
     font-size: 3.75rem;
     font-weight: 700;
     line-height: 6.25rem;
     letter-spacing: .1875rem; }
   .sectionCommFour input {
     margin-top: 5.375rem;
-    border: 0.3125rem solid #6D8B74;
+    border: 0.3125rem solid #627A67;
     height: 4.4375rem;
     border-radius: 2.875rem;
     margin-bottom: 6.25rem; }
   .sectionCommFour .email-input {
     width: 39.5rem;
-    color: #6D8B74;
-    font-family: 'Lato', sans-serif;
+    color: #627A67;
+    font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.5625rem;
     letter-spacing: .075rem;
     text-indent: 1.875rem;
     box-shadow: 0rem .25rem .25rem 0rem #898989; }
-  .sectionCommFour:focus {
-    outline: none; }
+    .sectionCommFour .email-input:focus {
+      border: 5px solid #364037;
+      outline: none; }
   .sectionCommFour form {
     position: relative; }
   .sectionCommFour .send-input {
     position: absolute;
-    right: 5px;
+    right: 0px;
     width: 9.25rem;
     border: .3125rem solid #6D8B74;
     background-color: #6D8B74;
     box-shadow: 0rem .25rem .25rem 0rem #898989;
     color: #FFFEFB;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.5625rem;
     letter-spacing: .075rem;
     text-align: center; }
+    .sectionCommFour .send-input:hover {
+      background-color: #364037;
+      border-color: #364037; }
 
 @media (max-width: 768px) {
   .sectionCommOne {
@@ -1937,7 +1981,9 @@ header {
 .signup {
   background-color: #364037;
   display: flex;
+  flex-direction: none;
   justify-content: center;
+  align-items: none;
   height: 8.75rem;
   text-align: center; }
   .signup img {
@@ -1949,17 +1995,17 @@ header {
   height: 46.875rem;
   background-color: #364037;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   border-color: #364037; }
   .form h1, .form .sectionOne span, .sectionOne .form span {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     font-weight: 500;
     font-size: 3.75rem;
     color: #FFFEFB;
     margin-bottom: 3.75rem; }
   .form p {
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
     font-weight: lighter;
     color: #FFFEFB; }
   .form input {
@@ -1989,24 +2035,26 @@ footer {
     justify-content: center; }
   footer .solutions-footer, footer .guides-footer {
     list-style: none;
-    line-height: 1.875rem;
+    line-height: 1.25rem;
     margin-right: 3.125rem; }
   footer .community-footer {
     list-style: none;
     line-height: 1.875rem; }
   footer a {
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.25rem;
+    font-family: "Lato", sans-serif;
+    font-size: 1.75rem;
     color: #364037; }
     footer a:hover {
-      color: #6D8B74;
+      color: #627A67;
       font-weight: 900; }
     footer a .logo-footer {
       width: 12.8125rem; }
   footer p {
     text-decoration: none;
-    font-family: 'Merriweather', serif;
+    margin-top: 1.25rem;
+    line-height: .625rem;
+    font-family: "Merriweather", serif;
     font-size: 1rem;
     color: #364037; }
   footer .social-media {
@@ -2018,6 +2066,35 @@ footer {
       width: 2.5625rem; }
     footer .social-media .ig {
       margin-right: 1.25rem; }
+
+@media (max-width: 1024px) {
+  footer {
+    padding-top: 6.25rem;
+    padding-left: 3.75rem; }
+    footer .solutions-footer, footer .guides-footer {
+      line-height: 1.875rem;
+      margin-right: 1.25rem; }
+    footer .guides-footer {
+      line-height: 1.875rem;
+      margin-right: .625rem; }
+    footer .community-footer {
+      line-height: 1.875rem; }
+    footer a {
+      text-decoration: none;
+      font-size: 1.25rem; }
+      footer a .logo-footer {
+        width: 12.5rem; }
+    footer p {
+      text-decoration: none;
+      font-size: 1rem;
+      color: #364037; }
+    footer .social-media {
+      margin-right: 3.125rem;
+      padding-bottom: 3.125rem; }
+      footer .social-media img {
+        width: 2rem; }
+      footer .social-media .ig {
+        margin-right: .9375rem; } }
 
 @media (max-width: 768px) {
   footer {
@@ -2063,9 +2140,9 @@ footer {
       list-style: none;
       line-height: 1.5625rem;
       flex-wrap: wrap;
-      margin-right: .625rem;
+      margin-right: 1.25rem;
       margin-bottom: 1.25rem;
-      padding-left: 0rem; }
+      padding-left: -10rem; }
     footer .community-footer {
       list-style: none;
       line-height: 1.5625rem;
@@ -2073,13 +2150,14 @@ footer {
       padding-left: 0rem; }
     footer a {
       text-decoration: none;
-      font-size: 1rem; }
+      font-size: 1.125rem; }
       footer a .logo-footer {
         width: 6.25rem;
         margin-bottom: 1.25rem; }
     footer p {
       text-decoration: none;
-      font-size: .875rem;
+      line-height: .3125rem;
+      font-size: .75rem;
       color: #364037; }
     footer .social-media {
       margin-right: 1.5625rem;
