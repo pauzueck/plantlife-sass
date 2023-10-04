@@ -3,23 +3,15 @@
     @include flex(none, center, none);
     p{
         width: 34.375rem;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.5625rem;
-        letter-spacing: .05rem;
+        @include font(1rem, 700, 1.5625rem, .05rem);
     }
     h1{
         margin-bottom: 2.875rem;
-        font-weight: 700;
-        letter-spacing: .1875rem;
-        font-size: 3.75rem;
+        @include font(3.75rem, 700, 3.75rem, .1875rem);
     }
     span{
         margin-bottom: 2.875rem;
-        font-weight: 700;
-        letter-spacing: .1875rem;
-        font-size: 3.75rem;
+        @include font(3.75rem, 700, 3.75rem, .1875rem);
     }
     button{
         padding: .75rem 2.1875rem;
@@ -32,6 +24,7 @@
         }
         a {
             text-decoration: none;
+            @include font(2rem, 500, none, .125rem);
             font-weight: 500;
             letter-spacing: .125rem;
             font-size: 2rem;
@@ -47,26 +40,15 @@
     h2{
         margin-top: 4.375rem;
         margin-bottom: 1.875rem;
-        font-size: 1.5rem;
-        font-weight: 700;
-        line-height: 2.5rem;
-        letter-spacing: .075rem;
+        @include font(1.5rem, 700, 2.5rem, .075rem);
     }
     span{
         margin-top: 4.375rem;
         margin-bottom: 1.875rem;
-        font-size: 1.5rem;
-        font-weight: 700;
-        line-height: 2.5rem;
-        letter-spacing: .075rem;
+        @include font(1.5rem, 700, 2.5rem, .075rem);
     }
     p{
-        font-weight: 300;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.5625rem;
-        letter-spacing: .05rem;
+        @include font(1rem, 300, 1.5625rem, .05rem);
         padding-left: 1.25rem;
         padding-right: 1.25rem;
         margin-bottom: 2.5rem;
@@ -75,11 +57,7 @@
 
 .sectionFour{
     h2{
-        font-size: 46px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 3.75rem;
-        letter-spacing: .1437rem;
+        @include font(2.875rem, 700, 3.75rem, .1437rem);
     }
     .leafOne{
         width: 15.625rem;

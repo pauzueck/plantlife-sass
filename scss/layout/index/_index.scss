@@ -80,8 +80,7 @@
         margin-bottom: 1.875rem;
         text-align: center;
         font-family: $Lato;
-        font-weight: 500;
-        font-size: 32px;
+        @include font(2rem, 500, 2rem, .08rem);
         color: $dark-green;
     }
     span{
@@ -91,10 +90,7 @@
     p{
         text-align: center;
         font-family: $Merri;
-        font-weight: 300;
-        font-size: 1.125rem;
-        line-height: 1.875rem;
-        letter-spacing: .0625rem;
+        @include font(1.125rem, 300, 1.875rem, .0625rem);
         color: $dark-green;
         padding-left: 13.625rem;
         padding-right: 13.625rem;

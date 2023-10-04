@@ -11,13 +11,12 @@
     }
     span{
         font-family: $Lato;
-        font-weight: 700;
-        letter-spacing: .1875rem;
-        font-size: 3.75rem;
+        @include font(3.75rem, 700, none, .1875rem);
         color: $light-green;
     }
     p{
         font-family: $Merri;
+        @include font(q.25rem, 300, none, .125rem);
         font-weight: 300;
         font-size: 1.25rem;
         color: $dark-green;
@@ -35,11 +34,9 @@
         }
         a{
             text-decoration: none;
-            font-weight: 500;
-            letter-spacing: .125rem;
+            @include font(2rem, 500, none, .125rem);
             color: $almost-white;
             font-family: $Lato;
-            font-size: 2rem;
         }
     }
 }
@@ -54,20 +51,14 @@
         padding-left: 7.8125rem;
         color: $dark-green;
         font-family: $Lato;
-        font-size: 3.75rem;
-        font-weight: 700;
-        line-height: 1.5625rem;
-        letter-spacing: .1875rem;
+        @include font(3.75rem, 700, 1.5625rem, .1875rem);
     }
     p{
         width: 32.75rem;
         padding-top: 3.125rem;
         color: $dark-green;
         font-family: $Merri;
-        font-size: 1.25rem;
-        font-weight: 700;
-        line-height: 1.875rem;
-        letter-spacing: .0625rem;
+        @include font(1.25rem, 700, 1.875rem, .0625rem);
         text-indent: 0;
     }
     img{
@@ -91,10 +82,7 @@
         border-radius: 6.5938rem;
         color: $almost-white;
         font-family: $Lato;
-        font-size: 6rem;
-        font-weight: 700;
-        line-height: 1.5625rem;
-        letter-spacing: .3rem;
+        @include font(6rem, 700, 1.5625rem, .3rem);
         text-align: center;
         text-indent: 0;
         padding-top: 5.7813rem
@@ -135,20 +123,14 @@
             color: $almost-white;
             font-family: $Lato;
             padding-left: 9.375rem;
-            font-size: 2rem;
-            font-weight: 700;
-            line-height: 1.5625rem;
-            letter-spacing: .1rem;
+            @include font(2rem, 700, 1.5625rem, .1rem);
         }
         p{
             padding-left: 9.375rem;
             padding-right: .9375rem;
             color: $almost-white;
             font-family: $Lato;
-            font-size: 1.25rem;
-            font-weight: 700;
-            line-height: 1.5625rem;
-            letter-spacing: .0625rem;
+            @include font(1.25rem, 700, 1.5625rem, .0625rem);
         }
     }
 }

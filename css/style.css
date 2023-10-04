@@ -12,7 +12,6 @@ header {
   flex-direction: none;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 3.125rem;
   background-color: #364037;
   width: 100%; }
   header .navbar-brand img {
@@ -127,18 +126,20 @@ header {
     margin-bottom: 1.875rem;
     text-align: center;
     font-family: "Lato", sans-serif;
+    font-size: 2rem;
     font-weight: 500;
-    font-size: 32px;
+    line-height: 2rem;
+    letter-spacing: 0.08rem;
     color: #364037; }
   .sectionTwo span {
     color: #627A67; }
   .sectionTwo p {
     text-align: center;
     font-family: "Merriweather", serif;
-    font-weight: 300;
     font-size: 1.125rem;
+    font-weight: 300;
     line-height: 1.875rem;
-    letter-spacing: .0625rem;
+    letter-spacing: 0.0625rem;
     color: #364037;
     padding-left: 13.625rem;
     padding-right: 13.625rem;
@@ -233,20 +234,21 @@ header {
     .sectionOne p {
       width: 34.375rem;
       font-size: 1rem;
-      font-style: normal;
       font-weight: 700;
       line-height: 1.5625rem;
-      letter-spacing: .05rem; }
+      letter-spacing: 0.05rem; }
     .sectionOne h1, .sectionOne span {
       margin-bottom: 2.875rem;
+      font-size: 3.75rem;
       font-weight: 700;
-      letter-spacing: .1875rem;
-      font-size: 3.75rem; }
+      line-height: 3.75rem;
+      letter-spacing: 0.1875rem; }
     .sectionOne span {
       margin-bottom: 2.875rem;
+      font-size: 3.75rem;
       font-weight: 700;
-      letter-spacing: .1875rem;
-      font-size: 3.75rem; }
+      line-height: 3.75rem;
+      letter-spacing: 0.1875rem; }
     .sectionOne button {
       padding: .75rem 2.1875rem;
       margin: 4rem;
@@ -257,6 +259,10 @@ header {
         color: #4B594D; }
       .sectionOne button a {
         text-decoration: none;
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: none;
+        letter-spacing: 0.125rem;
         font-weight: 500;
         letter-spacing: .125rem;
         font-size: 2rem; }
@@ -269,30 +275,27 @@ header {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 2.5rem;
-    letter-spacing: .075rem; }
+    letter-spacing: 0.075rem; }
   .sectionTwo span {
     margin-top: 4.375rem;
     margin-bottom: 1.875rem;
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 2.5rem;
-    letter-spacing: .075rem; }
+    letter-spacing: 0.075rem; }
   .sectionTwo p {
+    font-size: 1rem;
     font-weight: 300;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 1.5625rem;
-    letter-spacing: .05rem;
+    letter-spacing: 0.05rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     margin-bottom: 2.5rem; }
   .sectionFour h2, .sectionFour .sectionTwo span, .sectionTwo .sectionFour span {
-    font-size: 46px;
-    font-style: normal;
+    font-size: 2.875rem;
     font-weight: 700;
     line-height: 3.75rem;
-    letter-spacing: .1437rem; }
+    letter-spacing: 0.1437rem; }
   .sectionFour .leafOne, .sectionFour .leafTwo {
     width: 15.625rem;
     height: 8.625rem; }
@@ -309,8 +312,16 @@ header {
       font-size: 2.875rem;
       font-weight: 700;
       line-height: 3.125rem;
+      letter-spacing: 0.0875rem;
+      font-size: 2.875rem;
+      font-weight: 700;
+      line-height: 3.125rem;
       letter-spacing: .0875rem; }
     .sectionOne span {
+      font-size: 2.875rem;
+      font-weight: 700;
+      line-height: 3.125rem;
+      letter-spacing: 0.0875rem;
       font-size: 2.875rem;
       font-weight: 700;
       line-height: 3.125rem;
@@ -318,6 +329,10 @@ header {
     .sectionOne p {
       width: 80%;
       margin-left: 2rem;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.5625rem;
+      letter-spacing: 0.05rem;
       font-size: 1rem;
       font-weight: 700;
       line-height: 1.5625rem;
@@ -349,24 +364,19 @@ header {
       margin-top: 4.375rem;
       margin-bottom: 1.875rem;
       font-size: 1.5rem;
-      font-style: normal;
       font-weight: 700;
       line-height: 2.5rem;
-      letter-spacing: .075rem; }
+      letter-spacing: 0.075rem; }
     .sectionTwo span {
-      font-weight: 500;
       font-size: 1.5rem;
-      font-style: normal;
       font-weight: 700;
       line-height: 2.5rem;
-      letter-spacing: .075rem; }
+      letter-spacing: 0.075rem; }
     .sectionTwo p {
-      font-weight: 300;
-      font-size: 16px;
-      font-style: normal;
+      font-size: 1rem;
       font-weight: 700;
       line-height: 1.5625rem;
-      letter-spacing: .05rem;
+      letter-spacing: 0.05rem;
       padding-left: 1.25rem;
       padding-right: 1.25rem;
       margin-bottom: 2.5rem; }
@@ -393,12 +403,10 @@ header {
       .sectionThree .descriptionSectionThree p {
         margin-left: 1.25rem;
         margin-right: 1.25rem;
-        font-weight: 500;
         font-size: 1rem;
-        font-style: normal;
         font-weight: 700;
         line-height: 1.5625rem;
-        letter-spacing: .05rem; }
+        letter-spacing: 0.05rem; }
       .sectionThree .descriptionSectionThree .plantPhone {
         margin-bottom: 2.5rem;
         width: 13.625rem;
@@ -411,10 +419,9 @@ header {
     padding-bottom: .625rem; }
     .sectionFour h2, .sectionFour .sectionTwo span, .sectionTwo .sectionFour span {
       font-size: 1.75rem;
-      font-style: normal;
       font-weight: 700;
       line-height: 2.5rem;
-      letter-spacing: .0875rem; } }
+      letter-spacing: 0.0875rem; } }
 
 .sectionSolOne {
   display: flex;
@@ -434,12 +441,17 @@ header {
     color: #364037; }
   .sectionSolOne span {
     font-family: "Lato", sans-serif;
-    font-weight: 700;
-    letter-spacing: .1875rem;
     font-size: 3.75rem;
+    font-weight: 700;
+    line-height: none;
+    letter-spacing: 0.1875rem;
     color: #627A67; }
   .sectionSolOne p {
     font-family: "Merriweather", serif;
+    font-size: q 0.25rem;
+    font-weight: 300;
+    line-height: none;
+    letter-spacing: 0.125rem;
     font-weight: 300;
     font-size: 1.25rem;
     color: #364037;
@@ -455,11 +467,12 @@ header {
       background-color: #364037; }
     .sectionSolOne button a {
       text-decoration: none;
+      font-size: 2rem;
       font-weight: 500;
-      letter-spacing: .125rem;
+      line-height: none;
+      letter-spacing: 0.125rem;
       color: #FFFEFB;
-      font-family: "Lato", sans-serif;
-      font-size: 2rem; }
+      font-family: "Lato", sans-serif; }
 
 .sectionSolTwo {
   display: flex;
@@ -477,7 +490,7 @@ header {
     font-size: 3.75rem;
     font-weight: 700;
     line-height: 1.5625rem;
-    letter-spacing: .1875rem; }
+    letter-spacing: 0.1875rem; }
   .sectionSolTwo p {
     width: 32.75rem;
     padding-top: 3.125rem;
@@ -486,7 +499,7 @@ header {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.875rem;
-    letter-spacing: .0625rem;
+    letter-spacing: 0.0625rem;
     text-indent: 0; }
   .sectionSolTwo img {
     height: 29.25rem;
@@ -510,7 +523,7 @@ header {
     font-size: 6rem;
     font-weight: 700;
     line-height: 1.5625rem;
-    letter-spacing: .3rem;
+    letter-spacing: 0.3rem;
     text-align: center;
     text-indent: 0;
     padding-top: 5.7813rem; }
@@ -562,7 +575,7 @@ header {
       font-size: 2rem;
       font-weight: 700;
       line-height: 1.5625rem;
-      letter-spacing: .1rem; }
+      letter-spacing: 0.1rem; }
     .sectionSolThree .cardSolContent p {
       padding-left: 9.375rem;
       padding-right: .9375rem;
@@ -571,7 +584,7 @@ header {
       font-size: 1.25rem;
       font-weight: 700;
       line-height: 1.5625rem;
-      letter-spacing: .0625rem; }
+      letter-spacing: 0.0625rem; }
 
 .sectionSolFour {
   width: 100%;
@@ -987,9 +1000,10 @@ header {
     color: #364037; }
   .sectionGuideOne span {
     font-family: "Lato", sans-serif;
-    font-weight: 700;
-    letter-spacing: .1875rem;
     font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 5.625rem;
+    letter-spacing: 0.1875rem;
     color: #627A67; }
   .sectionGuideOne p {
     width: 685px;
@@ -997,10 +1011,11 @@ header {
     margin-bottom: 4.875rem;
     text-align: center;
     font-family: "Merriweather", serif;
-    font-weight: 500;
     font-size: 1.25rem;
-    color: #364037;
-    letter-spacing: .125rem; }
+    font-weight: 500;
+    line-height: 1.875rem;
+    letter-spacing: 0.125rem;
+    color: #364037; }
 
 .sectionGuideTwo {
   width: 100%;
@@ -1030,18 +1045,22 @@ header {
       text-align: center;
       box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25); }
       .sectionGuideTwo .card .card-content p {
-        padding: .8125rem 3.375rem;
+        padding: .125rem 3.375rem 0rem 3.375rem;
         font-family: "Merriweather", serif;
+        font-size: 0.875rem;
         font-weight: 500;
-        font-size: .875rem;
+        line-height: none;
+        letter-spacing: none;
         color: #EFEAD8; }
       .sectionGuideTwo .card .card-content h2, .sectionGuideTwo .card .card-content .sectionTwo span, .sectionTwo .sectionGuideTwo .card .card-content span {
         font-family: "Lato", sans-serif;
-        font-weight: 700;
         font-size: 1.25rem;
+        font-weight: 700;
+        line-height: none;
+        letter-spacing: none;
         color: #EFEAD8;
         padding-top: .8125rem;
-        margin-bottom: .3125rem; }
+        margin-bottom: .125rem; }
 
 .sectionGuideThree {
   display: flex;
@@ -1054,9 +1073,10 @@ header {
     font-family: "Lato", sans-serif;
     text-transform: capitalize;
     text-align: left;
-    font-weight: 500;
-    letter-spacing: .1875rem;
     font-size: 3.75rem;
+    font-weight: 500;
+    line-height: 5.625rem;
+    letter-spacing: 0.1875rem;
     color: #FFFEFB;
     padding-top: 7.8125rem; }
   .sectionGuideThree button {
@@ -1241,9 +1261,10 @@ header {
     text-indent: 0; }
   .sectionAboutOne span {
     font-family: "Lato", sans-serif;
-    font-weight: 700;
-    letter-spacing: .1875rem;
     font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 5.625rem;
+    letter-spacing: 0.1875rem;
     color: #627A67; }
 
 .sectionAboutTwo {
@@ -1266,17 +1287,16 @@ header {
       font-size: 3.75rem;
       font-weight: 700;
       line-height: 3.75rem;
-      letter-spacing: .1875rem; }
+      letter-spacing: 0.1875rem; }
     .sectionAboutTwo .aboutPlantLife p {
       padding-top: 3.75rem;
       width: 28.75rem;
       color: #EFEAD8;
       font-family: "Merriweather", serif;
       font-size: 1.25rem;
-      font-style: normal;
       font-weight: 700;
       line-height: 2.1875rem;
-      letter-spacing: .0625rem;
+      letter-spacing: 0.0625rem;
       text-indent: 0; }
   .sectionAboutTwo .aboutPlantLifeImage img {
     margin-bottom: 3.125rem;
@@ -1287,7 +1307,8 @@ header {
     font-family: "Lato", sans-serif;
     font-size: 3.75rem;
     font-weight: 700;
-    letter-spacing: .1875rem;
+    line-height: 5.625rem;
+    letter-spacing: 0.1875rem;
     text-indent: 0; }
   .sectionAboutTwo .aboutUs p {
     text-align: right;
@@ -1296,20 +1317,17 @@ header {
     color: #EFEAD8;
     font-family: "Merriweather", serif;
     font-size: 1.25rem;
-    font-style: normal;
     font-weight: 700;
     line-height: 2.1875rem;
-    letter-spacing: .0625rem;
+    letter-spacing: 0.0625rem;
     text-indent: 0;
     margin-bottom: 7.5rem; }
   .sectionAboutTwo .sectionAboutTwo img {
     border-radius: 15px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
-  .sectionAboutTwo .lilyImage {
+  .sectionAboutTwo .lilyImage, .sectionAboutTwo .plantAbout {
     width: 26.875rem;
     margin-bottom: 3.125rem; }
-  .sectionAboutTwo .plantAbout {
-    width: 26.875rem; }
 
 @media (max-width: 1202px) {
   .sectionAboutTwo {
@@ -1363,7 +1381,7 @@ header {
     .sectionAboutTwo .sectionAboutTwo img {
       border-radius: 15px;
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
-    .sectionAboutTwo .lilyImage {
+    .sectionAboutTwo .lilyImage, .sectionAboutTwo .plantAbout {
       width: 17.5rem;
       margin-bottom: 3.125rem; }
     .sectionAboutTwo .plantAbout {
@@ -1456,14 +1474,14 @@ header {
     .sectionAboutTwo .sectionAboutTwo img {
       border-radius: 15px;
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); }
-    .sectionAboutTwo .lilyImage {
+    .sectionAboutTwo .lilyImage, .sectionAboutTwo .plantAbout {
       margin-bottom: 3.125rem;
       width: 18.4375rem; }
     .sectionAboutTwo .plantAbout {
       width: 18.4375rem;
       margin-bottom: 3.125rem; } }
 
-@media (max-width: 645px) {
+@media (max-width: 640px) {
   .sectionAboutOne {
     height: 100vh;
     background-size: cover;
@@ -1557,7 +1575,7 @@ header {
       justify-content: space-evenly;
       align-items: center;
       grid-area: aboutImages; }
-    .sectionAboutTwo .lilyImage {
+    .sectionAboutTwo .lilyImage, .sectionAboutTwo .plantAbout {
       margin-bottom: 1.875rem;
       width: 11.625rem; }
     .sectionAboutTwo .plantAbout {
@@ -1586,9 +1604,10 @@ header {
       text-align: left; }
     .sectionCommOne .welcomComm span {
       font-family: "Lato", sans-serif;
-      font-weight: 700;
-      letter-spacing: .1875rem;
       font-size: 3.75rem;
+      font-weight: 700;
+      line-height: 5.625rem;
+      letter-spacing: 0.1875rem;
       color: #627A67;
       text-align: left; }
     .sectionCommOne .welcomComm img {
@@ -1646,12 +1665,13 @@ header {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.75rem;
-    letter-spacing: .0625rem;
+    letter-spacing: 0.0625rem;
     text-indent: 0;
     margin-top: 1.5625rem; }
     .sectionCommTwo .blog-card-content img {
-      padding-right: 1.25rem;
-      width: 4.5rem; }
+      padding-right: .625rem;
+      width: 4.5rem;
+      height: 4.5rem; }
 
 .sectionCommThree {
   background: #FFFEFB;
@@ -1664,6 +1684,10 @@ header {
     font-size: 2rem;
     font-weight: 700;
     line-height: 1.5625rem;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
     letter-spacing: .1rem; }
   .sectionCommThree span {
     color: #627A67;
@@ -1671,7 +1695,7 @@ header {
     font-size: 2rem;
     font-weight: 700;
     line-height: 1.5625rem;
-    letter-spacing: .1rem; }
+    letter-spacing: 0.1rem; }
   .sectionCommThree .webinar {
     padding-bottom: 6.25rem; }
     .sectionCommThree .webinar .webinar-card {
@@ -1698,11 +1722,15 @@ header {
         font-size: 2rem;
         font-weight: 700;
         line-height: 1.5625rem;
-        letter-spacing: .1rem;
+        letter-spacing: 0.1rem;
         display: inline; }
       .sectionCommThree .webinar .webinar-card p {
         color: #FFFEFB;
         font-family: "Lato", sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.5625rem;
+        letter-spacing: 0.075rem;
         font-size: 1.5rem;
         font-style: normal;
         font-weight: 700;
@@ -1723,7 +1751,7 @@ header {
     font-size: 3.75rem;
     font-weight: 700;
     line-height: 6.25rem;
-    letter-spacing: .1875rem;
+    letter-spacing: 0.1875rem;
     text-align: center;
     padding-top: 5.625rem; }
   .sectionCommFour span {
@@ -1732,7 +1760,7 @@ header {
     font-size: 3.75rem;
     font-weight: 700;
     line-height: 6.25rem;
-    letter-spacing: .1875rem; }
+    letter-spacing: 0.1875rem; }
   .sectionCommFour input {
     margin-top: 5.375rem;
     border: 0.3125rem solid #627A67;
@@ -1745,8 +1773,8 @@ header {
     font-family: "Lato", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
-    line-height: 1.5625rem;
-    letter-spacing: .075rem;
+    line-height: 0.075rem;
+    letter-spacing: 0.1875rem;
     text-indent: 1.875rem;
     box-shadow: 0rem .25rem .25rem 0rem #898989; }
     .sectionCommFour .email-input:focus {
@@ -1766,13 +1794,13 @@ header {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.5625rem;
-    letter-spacing: .075rem;
+    letter-spacing: 0.075rem;
     text-align: center; }
     .sectionCommFour .send-input:hover {
       background-color: #364037;
       border-color: #364037; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .sectionCommOne {
     margin-top: 1.25rem; }
     .sectionCommOne .welcomComm {
@@ -1831,7 +1859,9 @@ header {
       display: flex;
       justify-content: center; }
       .sectionCommTwo .blog-card-content img {
-        width: 3.75rem; }
+        padding-right: .0625rem;
+        width: 3.75rem;
+        height: 3.75rem; }
       .sectionCommTwo .blog-card-content p {
         font-size: 16px;
         font-style: normal;
@@ -1917,7 +1947,154 @@ header {
     letter-spacing: .075rem;
     text-align: center; } }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
+  .sectionCommOne {
+    margin-top: 1.25rem; }
+    .sectionCommOne .welcomComm {
+      display: flex;
+      flex-direction: none;
+      justify-content: space-between;
+      align-items: none;
+      padding-right: 3.125rem;
+      padding-left: 3.125rem;
+      align-items: center;
+      margin-bottom: 2.5rem; }
+      .sectionCommOne .welcomComm h1, .sectionCommOne .welcomComm .sectionOne span, .sectionOne .sectionCommOne .welcomComm span {
+        margin-top: 3.4375rem;
+        font-size: 2.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 5rem;
+        letter-spacing: .1437rem; }
+      .sectionCommOne .welcomComm span {
+        font-size: 2.875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 5rem;
+        letter-spacing: .1437rem; }
+      .sectionCommOne .welcomComm img {
+        height: 100%;
+        width: 20.875rem; }
+    .sectionCommOne .searchComm .search-bar input {
+      font-weight: 400;
+      font-size: 1.125rem;
+      padding-left: 20px;
+      font-size: 1.25rem;
+      border: 4px solid #6D8B74;
+      text-indent: 2rem;
+      width: 25.3125rem;
+      height: 3.125rem;
+      border-radius: 2.3rem; }
+    .sectionCommOne .searchComm .search-bar img {
+      width: .9375rem;
+      height: .9375rem;
+      position: absolute;
+      left: 30px;
+      top: 18px; }
+  .sectionCommTwo {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: repeat(3, 22.0625rem);
+    grid-template-areas: "blog-card1 blog-card2" "blog-card3 blog-card4" "blog-card5 blog-card6";
+    column-gap: 4.0625rem;
+    row-gap: 0;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem; }
+    .sectionCommTwo .blog-card img {
+      width: 18.125rem; }
+    .sectionCommTwo .blog-card-content {
+      display: flex;
+      justify-content: center; }
+      .sectionCommTwo .blog-card-content img {
+        padding-right: .0625rem;
+        width: 3.75rem;
+        height: 3.75rem; }
+      .sectionCommTwo .blog-card-content p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.25rem;
+        letter-spacing: .0437rem; }
+  .sectionCommThree {
+    margin-top: 3.125rem; }
+    .sectionCommThree .webinar {
+      padding-bottom: 3.125rem; }
+      .sectionCommThree .webinar .webinar-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1.75rem;
+        height: 6.25rem;
+        margin-left: 3.125rem;
+        margin-right: 3.125rem;
+        margin-bottom: 3.125rem; }
+        .sectionCommThree .webinar .webinar-card img {
+          margin-left: 1.75rem;
+          margin-right: .9375rem;
+          width: 4.4375rem;
+          height: 4.4375rem;
+          border-radius: .5625rem; }
+        .sectionCommThree .webinar .webinar-card h3 {
+          font-size: 1.25rem;
+          font-weight: 500;
+          line-height: 1.5625rem;
+          letter-spacing: .1rem;
+          display: inline; }
+        .sectionCommThree .webinar .webinar-card p {
+          font-size: .875rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 1.5625rem;
+          letter-spacing: .0437rem;
+          padding: 5px; }
+  .sectionCommFour h2, .sectionCommFour .sectionTwo span, .sectionTwo .sectionCommFour span {
+    margin-top: 3.4375rem;
+    font-size: 2.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem;
+    letter-spacing: .1437rem;
+    padding-top: 3.125rem; }
+  .sectionCommFour span {
+    margin-top: 3.4375rem;
+    font-size: 2.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem;
+    letter-spacing: .1437rem; }
+  .sectionCommFour input {
+    margin-top: 4.375rem;
+    border: 4px solid #6D8B74;
+    height: 3.375rem;
+    border-radius: 2.875rem;
+    margin-bottom: 3.125rem; }
+  .sectionCommFour .email-input {
+    width: 30rem;
+    color: #666;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5625rem;
+    letter-spacing: .075rem;
+    text-indent: 1.875rem;
+    box-shadow: 0rem .25rem .25rem 0rem #898989; }
+  .sectionCommFour .send-input {
+    position: absolute;
+    right: 0;
+    width: 7.5rem;
+    border: none;
+    background-color: #6D8B74;
+    box-shadow: 0rem .25rem .25rem 0rem #898989;
+    color: #FFFEFB;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    letter-spacing: .075rem;
+    text-align: center; } }
+
+@media (max-width: 640px) {
   .sectionCommOne {
     margin-top: 1.25rem; }
     .sectionCommOne .welcomComm {
@@ -2030,17 +2207,17 @@ header {
         padding: 5px; }
   .sectionCommFour h2, .sectionCommFour .sectionTwo span, .sectionTwo .sectionCommFour span {
     margin-top: 1.25rem;
-    font-size: 1.75rem;
+    font-size: 2.375rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 2.375rem;
+    line-height: 3.125rem;
     letter-spacing: .0875rem; }
   .sectionCommFour span {
     margin-top: 1.25rem;
-    font-size: 1.75rem;
+    font-size: 2.375rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 2.375rem;
+    line-height: 3.125rem;
     letter-spacing: .0875rem; }
   .sectionCommFour input {
     margin-top: 2.8125rem;

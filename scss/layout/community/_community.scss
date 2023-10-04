@@ -15,9 +15,7 @@
         }
         span{
             font-family: $Lato;
-            font-weight: 700;
-            letter-spacing: .1875rem;
-            font-size: 3.75rem;
+            @include font(3.75rem, 700, 5.625rem, .1875rem);
             color: $light-green;
             text-align: left;
         }
@@ -80,15 +78,14 @@
         @include flex(none, center, none);
         color: $dark-green;
         font-family: $Lato;
-        font-size: 1.25rem;
-        font-weight: 700;
-        line-height: 1.75rem;
-        letter-spacing: .0625rem;
+        @include font(1.25rem, 700, 1.75rem, .0625rem);
         text-indent: 0;
         margin-top: 1.5625rem;
         img{
-            padding-right: 1.25rem;
+            padding-right: .625rem;
             width: 4.5rem;
+            height: 4.5rem;
+
         }
     }
 }
@@ -100,6 +97,7 @@
         color: $dark-green;
         text-align: center;
         font-family: $Lato;
+        @include font(2rem, 700, 1.5625rem, .1rem);
         font-size: 2rem;
         font-weight: 700;
         line-height: 1.5625rem;
@@ -108,10 +106,7 @@
     span{
         color: $light-green;
         font-family: $Lato;
-        font-size: 2rem;
-        font-weight: 700;
-        line-height: 1.5625rem;
-        letter-spacing: .1rem;
+        @include font(2rem, 700, 1.5625rem, .1rem);
     }
     .webinar{
         padding-bottom: 6.25rem;
@@ -134,15 +129,13 @@
             h3{
                 color: $almost-white;
                 font-family: $Lato;
-                font-size: 2rem;
-                font-weight: 700;
-                line-height: 1.5625rem;
-                letter-spacing: .1rem;
+                @include font(2rem, 700, 1.5625rem, .1rem);
                 display: inline;
             }
             p{
                 color: $almost-white;
                 font-family: $Lato;
+                @include font(1.5rem, 700, 1.5625rem, .075rem);
                 font-size: 1.5rem;
                 font-style: normal;
                 font-weight: 700;
@@ -160,20 +153,14 @@
         padding-top: 5.625rem;
         color: $dark-green;
         font-family: $Lato;
-        font-size: 3.75rem;
-        font-weight: 700;
-        line-height: 6.25rem;
-        letter-spacing: .1875rem;
+        @include font(3.75rem, 700, 6.25rem, .1875rem);
         text-align: center;
         padding-top: 5.625rem;
     }
     span{
         color: $light-green;
         font-family: $Lato;
-        font-size: 3.75rem;
-        font-weight: 700;
-        line-height: 6.25rem;
-        letter-spacing: .1875rem;
+        @include font(3.75rem, 700, 6.25rem, .1875rem);
     }
     input{
         margin-top: 5.375rem;
@@ -186,10 +173,7 @@
         width: 39.5rem;
         color: $light-green;
         font-family: $Lato;
-        font-size: 1.5rem;
-        font-weight: 400;
-        line-height: 1.5625rem;
-        letter-spacing: .075rem;
+        @include font(1.5rem, 400, .075rem, .1875rem);
         text-indent: 1.875rem;
         box-shadow: 0rem .25rem .25rem 0rem #898989;
         &:focus{
@@ -209,10 +193,7 @@
         box-shadow: 0rem .25rem .25rem 0rem #898989;
         color: $almost-white;
         font-family: $Lato;
-        font-size: 1.5rem;
-        font-weight: 700;
-        line-height: 1.5625rem;
-        letter-spacing: .075rem;
+        @include font(1.5rem, 700, 1.5625rem, .075rem);
         text-align: center;
         &:hover{
             background-color: $dark-green;

@@ -16,9 +16,7 @@
     }
     span{
         font-family: $Lato;
-        font-weight: 700;
-        letter-spacing: .1875rem;
-        font-size: 3.75rem;
+        @include font(3.75rem, 700, 5.625rem, .1875rem);
         color: $light-green;
     }
 }
@@ -44,21 +42,14 @@
         h2{
             color: #EFEAD8;
             font-family: $Lato;
-            font-size: 3.75rem;
-            font-weight: 700;
-            line-height: 3.75rem;
-            letter-spacing: .1875rem;
+            @include font(3.75rem, 700, 3.75rem, .1875rem);
         }
         p{
             padding-top: 3.75rem;
             width: 28.75rem;
             color: #EFEAD8;
             font-family:$Merri;
-            font-size: 1.25rem;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 2.1875rem;
-            letter-spacing: .0625rem;
+            @include font(1.25rem, 700, 2.1875rem, .0625rem);
             text-indent: 0;
         }
     }
@@ -71,9 +62,7 @@
             text-align: center;
             color: #EFEAD8;
             font-family: $Lato;
-            font-size: 3.75rem;
-            font-weight: 700;
-            letter-spacing: .1875rem;
+            @include font(3.75rem, 700, 5.625rem, .1875rem);
             text-indent: 0;
         }
         p{
@@ -82,11 +71,7 @@
             width: 37.8125rem;
             color: #EFEAD8;
             font-family: $Merri;
-            font-size: 1.25rem;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 2.1875rem;
-            letter-spacing: .0625rem;
+            @include font(1.25rem, 700, 2.1875rem, .0625rem);
             text-indent: 0;
             margin-bottom: 7.5rem;
         }
@@ -100,6 +85,6 @@
         margin-bottom: 3.125rem;
     }
     .plantAbout{
-        width: 26.875rem;
+        @extend .lilyImage;
     }
 }
