@@ -2294,8 +2294,25 @@ header {
   .form .submitSignUp {
     margin-top: 1.25rem;
     margin-bottom: .625rem; }
-  .form .footerSignUp {
-    background-color: #364037; }
+  .form button {
+    background-color: #364037;
+    width: 25rem;
+    height: 2.5rem;
+    border: 1px, #FFFEFB;
+    border-radius: .625rem; }
+    .form button:hover {
+      background-color: #364037; }
+    .form button a {
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: none;
+      letter-spacing: 0.125rem;
+      color: #FFFEFB;
+      font-family: "Lato", sans-serif; }
+
+.footerSignUp {
+  background-color: #364037; }
 
 @media (max-width: 768px) {
   .signup {

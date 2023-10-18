@@ -41,7 +41,24 @@
             margin-top: 1.25rem;
             margin-bottom: .625rem;
         }
-        .footerSignUp{
+        button{
             background-color: $dark-green;
+            &:hover{
+                background-color: $dark-green;
+            }
+            width: 25rem;
+            height: 2.5rem;
+            border: 1px, $almost-white;
+            border-radius: .625rem;
+            a{
+                text-decoration: none;
+                @include font(1rem, 300, none, .125rem);
+                color: $almost-white;
+                font-family: $Lato;
+            }
         }
+        
     }   
+    .footerSignUp{
+        background-color: $dark-green;
+    }
