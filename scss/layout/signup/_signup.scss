@@ -52,7 +52,7 @@
             border-radius: .625rem;
             a{
                 text-decoration: none;
-                @include font(1rem, 300, none, .125rem);
+                @include font(.75rem, 300, none, .125rem);
                 color: $almost-white;
                 font-family: $Lato;
             }

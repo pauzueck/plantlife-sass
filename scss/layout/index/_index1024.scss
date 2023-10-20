@@ -1,0 +1,73 @@
+@media(max-width: 1024px){
+.sectionOne{
+    @include flex(none, center, none);
+    p{
+        width: 34.375rem;
+        @include font(1rem, 700, 1.5625rem, .05rem);
+    }
+    h1{
+        margin-bottom: 2.875rem;
+        @include font(3.75rem, 700, 3.75rem, .1875rem);
+    }
+    span{
+        margin-bottom: 2.875rem;
+        @include font(3.75rem, 700, 3.75rem, .1875rem);
+    }
+    button{
+        padding: .75rem 2.1875rem;
+        margin: 4rem;
+        border: none;
+        border-radius: 3.75rem;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        &:hover{
+            color: #4B594D;
+        }
+        a {
+            text-decoration: none;
+            @include font(2rem, 500, none, .125rem);
+            font-weight: 500;
+            letter-spacing: .125rem;
+            font-size: 2rem;
+        }
+    }
+    img{
+        width: 7.9375rem;
+        margin-top: 2.5rem;
+    }
+}
+
+.sectionTwo{
+    h2{
+        margin-top: 4.375rem;
+        margin-bottom: 1.875rem;
+        @include font(1.5rem, 700, 2.5rem, .075rem);
+    }
+    span{
+        margin-top: 4.375rem;
+        margin-bottom: 1.875rem;
+        @include font(1.5rem, 700, 2.5rem, .075rem);
+    }
+    p{
+        @include font(1rem, 300, 1.5625rem, .05rem);
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+.sectionFour{
+    h2{
+        @include font(2.875rem, 700, 3.75rem, .1437rem);
+    }
+    .leafOne{
+        width: 15.625rem;
+        height: 8.625rem;
+    }
+    .leafTwo{
+        width: 15.625rem;
+        height: 8.625rem;
+    }
+}
+
+
+}
