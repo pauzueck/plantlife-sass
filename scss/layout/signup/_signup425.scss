@@ -36,5 +36,17 @@
             margin-top: 1.25rem;
             margin-bottom: .625rem;
         }
+        button{
+            width: 16.9375rem;
+            height: 1.75rem;
+            border: 1px, $almost-white;
+            border-radius: .625rem;
+            a{
+                text-decoration: none;
+                @include font(.75rem, 300, none, .125rem);
+                color: $almost-white;
+                font-family: $Lato;
+            }
+        }
     }
 }   
